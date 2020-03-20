@@ -25,3 +25,7 @@ https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/i
 example <https://wasmbyexample.dev/>
 
 http://webassembly.org.cn/
+
+---
+
+https://mp.weixin.qq.com/s/sK04ITt-bLfbGiyFcYQtfw

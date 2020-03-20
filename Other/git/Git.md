@@ -1,17 +1,8 @@
 ##### Git global setup
 
 ```bash
-git config --global user.name "xxx"
-git config --global user.email "xxx@inspur.com"
-
-git config --global user.name "栾兴通"
-git config --global user.email "luanxingtong@inspur.com"
-
 git config --global user.name "fivge"
 git config --global user.email "luanxingtong@gmail.com"
-
-git config user.name "栾兴通"
-git config user.email "luanxingtong@inspur.com"
 ```
 
 ##### 登录认证
