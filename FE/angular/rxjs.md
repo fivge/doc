@@ -26,3 +26,5 @@ this.id$ = this.route.paramMap.pipe(map(params => params.get('id')));
 当在组件中订阅一个可观察对象时，你通常总是要在组件销毁时取消这个订阅。
 
 但是也有少数例外情况不需要取消订阅。 `ActivateRoute` 中的各种可观察对象就是属于这种情况。
+
+https://random-word-api.herokuapp.com/word?number=10
