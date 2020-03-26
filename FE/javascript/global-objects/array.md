@@ -41,6 +41,15 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 - callback 函数会被自动传入三个参数：数组元素，元素索引，原数组本身
 - map 不修改调用它的原数组本身
 
+##### sort()
+
+```js
+// +
+[].sort((a, b) => a - b);
+// -
+[].sort((a, b) => b - a);
+```
+
 ---
 
 <https://es6.ruanyifeng.com/#docs/array>

@@ -43,9 +43,3 @@ function throttle(fn) {
 function sayHi(e) {
   console.log("😊", e.target.innerWidth, e.target.innerHeight);
 }
-
-// import * as Rx from "./rxjs@6.5.4.js";
-
-// var myObservable = new Rx.Subject();
-// myObservable.subscribe(value => console.log(value));
-// myObservable.next("foo");
