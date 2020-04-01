@@ -19,6 +19,10 @@ import { HttpClientModule } from "@angular/common/http";
 export class AppModule {}
 ```
 
+#### request TODO🐎
+
+> 可以实现 get、delete 请求发送 body
+
 ### `fetch()`
 
 <https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch>
