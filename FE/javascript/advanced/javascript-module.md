@@ -15,9 +15,9 @@ https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
 使用自执行函数来编写模块化，特点：在一个单独的函数作用域中执行代码，避免变量冲突
 
 ```js
-(function() {
+(function () {
   return {
-    data: []
+    data: [],
   };
 })();
 ```
@@ -45,21 +45,3 @@ node foo.js
 es6 的模块加载方式，**生产环境不可直接使用**，大部分软件包（react、rxjs 等）都不支持！！！
 
 可在个人项目，只加载少量 js，不依赖第三方库的情况下使用
-
----
-
-### Webpack
-
-### SystemJS
-
-### Rollup
-
----
-
-#### 摇树优化
-
-#### 代码混淆
-
-#### run-time 运行时
-
-#### => JIT AOT

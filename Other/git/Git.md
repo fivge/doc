@@ -1,18 +1,3 @@
-##### Git global setup
-
-```bash
-git config --global user.name "fivge"
-git config --global user.email "luanxingtong@gmail.com"
-```
-
-##### 登录认证
-
-###### (1) http
-
-###### (2) ssh
-
-##### 多人协作
-
 ##### commit
 
 ```bash
@@ -29,20 +14,26 @@ chore：构建过程或辅助工具的变动
 
 ##### Q&A
 
-> ```bash
 > fatal: refusing to merge unrelated histories
 >
+> ```bash
 > --allow-unrelated-histories
 > ```
 
 > 同步远程分支
 >
 > ```bash
-> git remote update origin -p
+> git remote update -p
 > ```
 
 > 强制推送
 >
 > ```bash
 > git push -f
+> ```
+
+> 记住用户名密码
+>
+> ```
+> git config --global credential.helper store
 > ```

@@ -29,9 +29,13 @@
 
 - http params (url params)
 
-  ```
+encodeURIComponent
 
-  ```
+HttpParams
+
+```
+
+```
 
 - ?formData
 

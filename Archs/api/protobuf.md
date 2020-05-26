@@ -1,7 +1,5 @@
 ## protobuf
 
-
-
 ### proto
 
 https://github.com/protocolbuffers/protobuf
@@ -9,8 +7,6 @@ https://github.com/protocolbuffers/protobuf
 https://developers.google.com/protocol-buffers/docs/reference/javascript-generated
 
 ### server
-
-
 
 ### brower
 
@@ -23,12 +19,10 @@ https://developers.google.com/protocol-buffers/docs/reference/javascript-generat
 [ts-protoc-gen](https://www.npmjs.com/package/ts-protoc-gen)
 
 ```bash
-protoc --plugin=protoc-gen-ts="{ABSOLUTEPATH}\node_modules\.bin\protoc-gen-ts.cmd" 
-       --js_out="import_style=commonjs,binary:src/app/generated" 
+protoc --plugin=protoc-gen-ts="{ABSOLUTEPATH}\node_modules\.bin\protoc-gen-ts.cmd"
+       --js_out="import_style=commonjs,binary:src/app/generated"
        --ts_out="service=grpc-web:src/app/generated" src/app/protos/{YOURPROTOFILENAME}.proto
 ```
-
-
 
 ---
 
@@ -51,7 +45,7 @@ start/build
 
 ---
 
-+ https://medium.com/francesco-pongetti/using-protocol-buffers-in-a-node-js-angular-web-application-fba17df8ab51
-+ https://github.com/AnthonyGiretti/angular8-grpc-aspnetcore3-1-demo
-+ https://segmentfault.com/a/1190000017055280
-+ TODO: <https://grpc.io/>
+- https://medium.com/francesco-pongetti/using-protocol-buffers-in-a-node-js-angular-web-application-fba17df8ab51
+- https://github.com/AnthonyGiretti/angular8-grpc-aspnetcore3-1-demo
+- https://segmentfault.com/a/1190000017055280
+- TODO: <https://grpc.io/>
