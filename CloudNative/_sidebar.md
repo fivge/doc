@@ -1,4 +1,4 @@
-- [Terminal](CloudNative/term/screenfetch.md)
+- [Terminal](CloudNative/term/vim.md)
   <!-- - [System](CloudNative/system/xx.md) -->
   <!-- - [Tradition](CloudNative/tradition/xx.md) -->
 - [Devops](CloudNative/devops/docker.md)

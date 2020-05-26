@@ -1,3 +1,6 @@
+- [vim](CloudNative/term/vim.md)
+- [VIM 快速参考](http://vimcdoc.sourceforge.net/doc/help.html)
+- [ssh](CloudNative/term/ssh.md)
 - [screenfetch](CloudNative/term/screenfetch.md)
 - [grep](CloudNative/term/grep.md)
 - [nc](CloudNative/term/nc.md)
