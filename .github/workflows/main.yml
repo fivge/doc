@@ -19,6 +19,7 @@ jobs:
 
     - name: Do copy files
       run: |
-        rm -rf /var/www/fivge.github.io/
-        mkdir /var/www/fivge.github.io/
+        rm -rf /var/www/fivge.github.io/ /var/www/0x64.ml/
+        mkdir /var/www/fivge.github.io/ /var/www/0x64.ml/
         cp -r * /var/www/fivge.github.io/
+        cp -r * /var/www/0x64.ml/
