@@ -1,1 +1,0 @@
-https://github.com/sudheerj/angular-interview-questions#what-is-metadata

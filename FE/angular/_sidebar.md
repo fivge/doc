@@ -1,15 +1,17 @@
 - Basics
-
   - [Get Start](FE/angular/basics/get-start.md)
-  - [Router](FE/angular/basics/Angular-Router.md "Angular路由")
+  - [Router](FE/angular/basics/router.md)
   - [Http](FE/angular/basics/http.md)
-
+  - [生命周期](FE/angular/basics/lifecycle-hooks.md)
+  - [架构](FE/angular/basics/architecture.md)
+  - [依赖注入](FE/angular/basics/di.md)
+  - [title](FE/angular/basics/title.md)
 - Excel
-  - [Update to 8](FE/angular/excel/Angular-Update.md)
+  - [管道](FE/angular/excel/pipe.md)
   - [指令](FE/angular/excel/directive.md)
-    <!-- - [管道](FE/angular/excel/pipe.md) -->
-    <!-- - [拦截器](FE/angular/excel/interceptor.md) -->
-    <!-- - [ACL](FE/angular/excel/acl.md) -->
-    <!-- - [性能优化](FE/angular/excel/性能优化.md) -->
+  - [Router](FE/angular/excel/router-advanced.md)
+  - [ACL](FE/angular/excel/acl.md)
   - [CI/CD](FE/angular/excel/ci-cd.md)
-    <!-- - [Fire](FE/angular/excel/fire.md) -->
+  - [Update to 8](FE/angular/excel/update.md)
+  - [Update to 9](FE/angular/excel/update-9.1.md)
+  - [Adv](FE/angular/excel/adv.md)
