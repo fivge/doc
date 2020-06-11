@@ -9,3 +9,15 @@ https://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-swi
 ---
 
 打平操作符
+
+#### of
+
+#### from
+
+subscribe
+
+pipe
+
+unsubscribe
+
+interval

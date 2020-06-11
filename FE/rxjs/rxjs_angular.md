@@ -13,11 +13,7 @@ this.hero$.subscribe(res => console.log(res)); // {id:'1',name:'superman'}
 this.id$ = this.route.paramMap.pipe(map(params => params.get('id')));
 ```
 
-
-
 你可能想使用 RxJS 的 `map` 操作符。 但 `HeroService` 返回的是一个 `Observable`。 所以你要改用 `switchMap` 操作符来打平这个 `Observable`
-
-
 
 ### Observable
 
