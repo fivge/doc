@@ -2,7 +2,7 @@
 
 #### 数组遍历
 
-##### for(;;)
+##### `for(;;)`
 
 遍历数组推荐使用
 
@@ -18,9 +18,17 @@ for (let i = 0, len = arr.length; i < len; i++) {}
 
 遍历 Map 使用 `for in` 加模式匹配
 
+#### `...`
+
 #### 数组方法 prototype
 
 <https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array#>
+
+##### forEach()
+
+##### find() findIndex()
+
+##### filter()
 
 ##### map()
 
@@ -28,7 +36,7 @@ map() 方法创建一个新数组，其结果是该数组中的每个元素都�
 
 ```js
 let arr = ["1", "2", "3", "4"];
-let arr2 = arr.map(x => parseInt(x) + 1);
+let arr2 = arr.map((x) => parseInt(x) + 1);
 ```
 
 ```js
@@ -41,6 +49,8 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 - callback 函数会被自动传入三个参数：数组元素，元素索引，原数组本身
 - map 不修改调用它的原数组本身
 
+##### every()
+
 ##### sort()
 
 ```js
@@ -50,7 +60,31 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 [].sort((a, b) => b - a);
 ```
 
----
+##### includes() ~~indexOf()~~
+
+```js
+let arr = ["1", "2", "3", "4"];
+arr.includes("3");
+// true
+arr.includes("5");
+// false
+
+arr.indexOf("3") !== -1;
+// true
+arr.indexOf("5") === -1;
+// false
+```
+
+> 尽量使用 includes 而不要使用 indexOf
+
+```js
+[NaN].indexOf(NaN);
+// -1
+[NaN].includes(NaN);
+// true
+```
+
+##### push() pop() shift() unshift() splice() slice()
 
 <https://es6.ruanyifeng.com/#docs/array>
 
@@ -58,17 +92,40 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 
 ```js
 function unique(arr) {
-  return arr.filter(function(item, index, arr) {
+  return arr.filter(function (item, index, arr) {
     //当前元素，在原始数组中的第一个索引==当前索引值，否则返回当前元素
     return arr.indexOf(item, 0) === index;
   });
 }
-    var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
-        console.log(unique(arr))
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {},
+];
+console.log(unique(arr));
 //[1, "true", true, 15, false, undefined, null, "NaN", 0, "a", {…}, {…}]
 ```
 
 ```js
-[...new Set(arr)]
+[...new Set(arr)];
 ```
-
