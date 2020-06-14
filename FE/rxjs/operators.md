@@ -19,20 +19,22 @@
   - from🌟
   - interval
   - timer
+  - ~~fromPromise~~
 - 转换操作符
   - map🌟
+  - mapTo
   - switchMap🌟
 - 过滤操作符
 - 组合操作符
   - concat🌟
-  - forkJoin
+  - forkJoin⭐
 - 多播操作符
 - 错误处理操作符
 - 工具操作符
 
 #### 创建操作符
 
-##### `of()`
+##### `of()`🌟
 
 按顺序发出任意数量的值
 
@@ -44,7 +46,7 @@ const source = of(1, 2, 3, 4, 5, { name: 'Brian' }, [1, 2, 3], function hello() 
 source.subscribe(console.log);
 ```
 
-##### `from()`
+##### `from()`🌟
 
 从一个数组、类数组对象、Promise、迭代器对象或者类 Observable 对象创建一个 Observable
 
@@ -94,7 +96,7 @@ source.subscribe(val => console.log(val, new Date().getSeconds()));
 
 #### 转换操作符
 
-##### `map()`
+##### `map()`🌟
 
 对源 observable 的每个值应用投射函数
 
@@ -110,7 +112,20 @@ source.subscribe(res => console.log('from', res));
 example.subscribe(res => console.log('from map', res));
 ```
 
-##### `switchMap()`
+##### `mapTo()`
+
+将每个发出值映射成常量
+
+> 类似于 `map`，但它每一次都把源值映射成同一个输出值
+
+```js
+const source = interval(2000);
+const example = source.pipe(mapTo(`cowsay`));
+// 输出: 'cowsay', 'cowsay', 'cowsay', 'cowsay', 'cowsay'...
+example.subscribe(console.log);
+```
+
+##### `switchMap()`🌟
 
 将每个源值投射成 Observable，该 Observable 会合并到输出 Observable 中， 并且只发出最新投射的 Observable 中的值。
 
@@ -152,7 +167,7 @@ interval
 
 #### 组合操作符
 
-#### `concat()`
+##### `concat()`🌟
 
 按顺序订阅 Observables，但是只有当一个完成并让我知道，然后才会开始下一个
 
@@ -168,7 +183,7 @@ console.log(new Date().getSeconds());
 concat(getPostOne$, getPostTwo$).subscribe(res => console.log(res, new Date().getSeconds()));
 ```
 
-#### `forkJoin()`
+##### `forkJoin()`⭐
 
 forkJoin 是 Rx 版的 Promise.all()
 
