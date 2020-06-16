@@ -1,5 +1,5 @@
-- [Terminal](CloudNative/term/vim.md)
-  <!-- - [System](CloudNative/system/xx.md) -->
-  <!-- - [Tradition](CloudNative/tradition/xx.md) -->
-- [Devops](CloudNative/devops/docker.md)
-- [WSL](CloudNative/wsl.md)
+- [Terminal](term/vim.md)
+  <!-- - [System](system/xx.md) -->
+  <!-- - [Tradition](tradition/xx.md) -->
+- [Devops](devops/docker.md)
+- [WSL](wsl.md)
