@@ -1,10 +1,10 @@
 #### 导入模块 import Module
 
 ```typescript
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [HttpClientModule]
+  imports: [HttpClientModule],
 })
 export class AppModule {}
 ```
@@ -27,13 +27,13 @@ constructor(private el: ElementRef) { }
 ```typescript
 // 特定模块
 @NgModule({
-  providers: [DocumentService]
+  providers: [DocumentService],
 })
 export class DocumentModule {}
 
 // 全局
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root',
 })
 export class DocumentService {
   constructor() {}
@@ -44,7 +44,7 @@ export class DocumentService {
 
 ```typescript
 @NgModule({
-  declarations: [NziDocumentCenterDirective, DockerComponent]
+  declarations: [NziDocumentCenterDirective, DockerComponent],
 })
 export class DocumentModule {}
 ```
@@ -78,3 +78,23 @@ export class DocumentModule {}
 提供在同一个 module 的 sercice 共享同一作用域，不同 module 的提供不同作用域
 
 默认 provider: root
+
+---
+
+## 依赖注入
+
+### construct
+
+在构造函数入参中注入，而不需要在构造函数中注入，angular 自动帮助完成这个操作 —— 在实例化 component 时候，注入服务
+
+这样也不需要实例化函数
+
+### provider
+
+在 provider 中，提供这个服务
+
+通常在 module 中，也可在 component 中，或者 service 中（一般不会这样做的）
+
+### 多级注入
+
+服务中注入服务再注入服务

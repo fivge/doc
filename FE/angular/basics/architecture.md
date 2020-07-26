@@ -27,8 +27,8 @@ export class AppModule {}
 
 ```typescript
 @Component({
-  selector: "app-hero-list",
-  templateUrl: "./hero-list.component.html",
+  selector: 'app-hero-list',
+  templateUrl: './hero-list.component.html',
   providers: [HeroService],
 })
 export class HeroListComponent implements OnInit {
@@ -88,14 +88,14 @@ constructor(private service: HeroService) { }
 
 提供服务
 
-+ ```typescript
+- ```typescript
   @Injectable({
     providedIn: 'root',
   })
   export class HeroService {}
   ```
 
-+ ```typescript
+- ```typescript
   @NgModule({
     providers: [
      HeroService
@@ -104,7 +104,7 @@ constructor(private service: HeroService) { }
   })
   ```
 
-+ ```typescript
+- ```typescript
   @Component({
     selector:    'app-hero-list',
     templateUrl: './hero-list.component.html',
