@@ -128,4 +128,18 @@ rewrite
 
 302 301
 
+> 301
+
+```nginx
+server {
+
+...
+
+# 301
+   if ($scheme != "https") {
+      return 301 https://$host$request_uri;
+   }
+}
+```
+
 #### 反向代理

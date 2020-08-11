@@ -1,6 +1,6 @@
 ## Operators (操作符)
 
-### 什么是操作符？delete
+### 什么是操作符?
 
 > 操作符是允许复杂的异步代码以声明式的方式进行轻松组合的基础代码单元。
 
@@ -20,17 +20,34 @@
   - interval
   - timer
   - ~~fromPromise~~
+  
 - 转换操作符
   - map🌟
   - mapTo
   - switchMap🌟
+  
 - 过滤操作符
+
 - 组合操作符
   - concat🌟
   - forkJoin⭐
+  
 - 多播操作符
+
 - 错误处理操作符
+
 - 工具操作符
+  
+  + tap🌟
+  
+  + delay🌟
+  
+  + delayWhen
+  
+  + ```js
+    timeout
+    dematerialize 
+    ```
 
 #### 创建操作符
 
@@ -202,3 +219,18 @@ const getPostTwo$ = timer(2000).pipe(mapTo({ id: 2 }));
 console.log(new Date().getSeconds());
 forkJoin(getPostOne$, getPostTwo$).subscribe(res => console.log(res, new Date().getSeconds()));
 ```
+
+#### 工具操作符
+
+##### `tap()`🌟
+
+##### `delay()`🌟
+
+通过给定的超时或者直到一个给定的时间来延迟源 Observable 的发送
+
+```js
+如果延时参数是数字, 这个操作符会将源 Observable 的发出时间都往后推移固定的毫秒数。 保存值之间的相对时间间隔.
+
+如果延迟参数是日期类型, 这个操作符会延时Observable的执行直到到了给定的时间.
+```
+

@@ -10,6 +10,7 @@
   - [xlsx-populate](FE/npm/pkgs/xlsx-populate.md)
   - [yargs](FE/npm/pkgs/yargs.md)
   - [nx](FE/npm/pkgs/nx.md)
+  - [hashids](https://github.com/niieani/hashids.js)
 - Config
 - [Yarn](FE/npm/yarn.md)
 - [Yarn 2](FE/npm/yarn-v2.md)

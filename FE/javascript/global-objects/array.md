@@ -35,8 +35,8 @@ for (let i = 0, len = arr.length; i < len; i++) {}
 map() 方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。
 
 ```js
-let arr = ["1", "2", "3", "4"];
-let arr2 = arr.map((x) => parseInt(x) + 1);
+let arr = ['1', '2', '3', '4'];
+let arr2 = arr.map(x => parseInt(x) + 1);
 ```
 
 ```js
@@ -63,15 +63,15 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 ##### includes() ~~indexOf()~~
 
 ```js
-let arr = ["1", "2", "3", "4"];
-arr.includes("3");
+let arr = ['1', '2', '3', '4'];
+arr.includes('3');
 // true
-arr.includes("5");
+arr.includes('5');
 // false
 
-arr.indexOf("3") !== -1;
+arr.indexOf('3') !== -1;
 // true
-arr.indexOf("5") === -1;
+arr.indexOf('5') === -1;
 // false
 ```
 
@@ -100,8 +100,8 @@ function unique(arr) {
 var arr = [
   1,
   1,
-  "true",
-  "true",
+  'true',
+  'true',
   true,
   true,
   15,
@@ -114,11 +114,11 @@ var arr = [
   null,
   NaN,
   NaN,
-  "NaN",
+  'NaN',
   0,
   0,
-  "a",
-  "a",
+  'a',
+  'a',
   {},
   {},
 ];

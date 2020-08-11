@@ -1,5 +1,12 @@
-- https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
-- https://github.com/mermaid-js/mermaid
+<details>
+  <summary>dry-run</summary>
+  <p>
+    <code>--dry-run</code> (alias: <code>-d</code>)
+  </p>
+  <p>
+    Run through without making any changes.
+  </p>
+</details>
 
 ```mermaid
 graph LR
@@ -8,8 +15,6 @@ graph LR
 	C --> A;
 	D --> A;
 ```
-
-
 
 ---
 
@@ -69,3 +74,8 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
+
+---
+
+- https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
+- https://github.com/mermaid-js/mermaid
