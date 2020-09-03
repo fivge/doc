@@ -26,12 +26,6 @@ https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
 
 服务端使用，浏览器不可用
 
-```
-node foo.js
-```
-
-> 🤔 webpack 是 commonjs 的浏览器端实现
-
 #### amd
 
 浏览器使用，使用 `require.js`加载。服务器不可用
