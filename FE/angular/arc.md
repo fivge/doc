@@ -1,22 +1,15 @@
 > 框架
 
-<img src="https://angular.cn/generated/images/guide/architecture/overview2.png" alt="image" style="zoom:80%;" />
+![](https://angular.cn/generated/images/guide/architecture/overview2.png)
 
 - 组件和模板共同定义了 Angular 的视图。
-
-* 基于组件：基于 module component
-
-* 数据绑定：component 与模板双向绑定 事件绑定和参数绑定
-
-  [] () [()] {} #name
-
-* 依赖注入：服务注入到组件中
-
-* 装饰器：原理、如何实现、与注解的区别、自己实现装饰器（在 angular、pure typescript 中）
-
+- 基于组件：基于 module component
+- 数据绑定：component 与模板双向绑定 事件绑定和参数绑定
+  `[] () [()] {} #name`
+- 依赖注入：服务注入到组件中
+- 装饰器：原理、如何实现、与注解的区别、自己实现装饰器（在 angular、pure typescript 中）
   装饰器为其添加了元数据 matedata
-
-* meta-data annotation
+- meta-data annotation
 
 > 类型
 
