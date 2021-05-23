@@ -1,0 +1,96 @@
+1.创建一个名为archie的用户，并使用zsh作默认shell
+①  # useradd -m -g users -G audio,video,floppy,network,rfkill,scanner,storage,optical,power,wheel,uucp -s /usr/bin/zsh archie
+# passwd archie
+
+②  使用useradd命令添加用户
+ useradd -m -g [初始组] -G [附加组] -s [登陆shell] [用户]
+-m：创建用户主目录/home/[用户名]；在自己的主目录内，即使不是root用户也可以读写文件、安装程序等等。
+-g：设置用户初始组的名称或数字ID；该组必须是存在的；如果没有设置该选项，useradd会根据/etc/login.defs文件中的USERGROUPS_ENAB环境变量进行设置。
+-G：用户要加入的附加组列表；使用逗号分隔多个组，不要添加空格；如果不设置，用户仅仅加入初始组。
+-s：用户默认登录shell的路径；Arch Linux的init脚本使用bash；启动过程结束后，默认启动的登录shell在此处设定；请确保使用的shell已经安装
+③  要添加一个名为archie的用户，并使用bash作为登录shell：
+# useradd -m -g users -s /bin/bash archie
+通过下列命令设置GECOS字段（用户信息，例如用户全名）：
+
+# chfn [用户名]
+
+（这样将会以交互式模式启动chfn） 
+
+通过下列命令设置用户密码：
+
+# passwd [用户名]
+④  另一个交互式界面的添加用户的工具：
+
+# adduser
+
+adduser会询问一些常见的设置，并使用合适的默认值，调用useradd创建用户。该命令还会设置用户信息和密码，囊括了chfn和passwd两个命令的功能。 
+
+⑤  使用userdel命令删除用户：
+
+# userdel -r [用户名]
+
+-r选项表示一并删除用户主目录和邮件。 
+
+⑥  用户信息存储
+
+本地用户信息储存在/etc/passwd文件中。要查看系统上所有用户账户：
+
+$ cat /etc/passwd
+
+一行代表一个用户，格式如下：
+
+account:password:UID:GID:GECOS:directory:shell
+
+此处：
+
+    account：用户名
+    password：用户密码
+    UID：用户的数字ID
+    GID：用户所在主组的数字ID
+    GECOS：可选的注释字段，通常记录用户全名
+    directory：用户的主目录（$HOME）
+    shell：用户的登陆shell（默认为/bin/sh）
+
+注意: Arch Linux 使用影子密码。passwd文件对所有人可读，在里面存储密码（无论是否加密过）是很不安全的。在password字段，通常使用一个占位字符（x）代替。加密过的密码储存在/etc/shadow文件，该文件对普通用户限制访问。
+⑦   用户组管理
+
+/etc/group文件储存了系统中用户组的信息，详情参见：man group。
+
+使用groups命令查看用户所在组的名称：
+
+$ groups [用户名]
+
+若省略用户名，默认显示当前用户所在组。
+
+id命令提供额外的信息，包括用户UID以及相关用户组GID：
+
+$ id [用户名]
+
+查看所有组：
+
+$ cat /etc/group
+
+使用groupadd创建新的组：
+
+# groupadd [组名]
+
+使用gpasswd将用户添加到组：
+
+# gpasswd -a [用户名] [组名]
+
+删除用户组：
+
+# groupdel [组名]
+
+将用户从组中移除：
+
+# gpasswd -d [用户名] [组名]
+
+如果用户已登录，必须重新登录使更改生效。 
+⑧  audio,video,floppy,network,rfkill,scanner,storage,optical,power,wheel,uucp
+camera disk  games locate ip  networkmanager    sys user 
+rfkill 	不再使用! 
+disk  直接访问不受 optical, floppy 和 storage 组控制的块设备. 除非有特殊需要, 否则不建议将一般用户添加至该组
+
+
+⑨  audio,camera,disk,floppy,games,locate,ip,network,networkmanager,optical,power,scanner,storage,sys,user,uucp,video,wheel
