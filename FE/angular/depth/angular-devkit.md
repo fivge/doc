@@ -1,10 +1,10 @@
----
+```
 treee -L 1 -a -I node_modules --dirs-first
 
 ⭐ important 🌟 very important
 
 ⚡ has read ⏳ to do 🌙 no need to read
----
+```
 
 #### `tree`
 

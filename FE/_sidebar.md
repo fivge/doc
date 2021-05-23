@@ -1,6 +1,3 @@
-<!-- - [Typescript](typescript) -->
-  <!-- - [Node](node) -->
-
 - Javascript
   - 内置对象
     - [array](javascript/global-objects/array.md)
@@ -30,10 +27,6 @@
 - [Angular](angular/basics/get-start.md)
 - RxJS
   - [operators](rxjs/operators.md)
-    <!-- - [Dart](dart) -->
-      <!-- - [Miniprogram](miniprogram) -->
 - [Brower](brower)
-  <!-- - [Algorithms](algorithms) -->
-  <!-- - [Style](style) -->
 - WebComponent
   - [open-wc](https://open-wc.org/index.html)

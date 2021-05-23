@@ -1,9 +1,9 @@
----
+```
 ⭐
 🌟
 ❄
 🆑
----
+```
 
 ### 操作符分类
 
@@ -72,6 +72,7 @@
 仅当内部 Obervable 发出值时，通过合并值到外部 Observable 来让我知道
 
 ```js
+
 ```
 
 #### pairwise
@@ -85,11 +86,13 @@
 ##
 
 ```js
+
 ```
 
 #### x
 
 ```js
+
 ```
 
 https://github.com/RxJS-CN/rxjs-articles-translation/blob/master/articles/Six-Operators-That-You-Must-Know.md
