@@ -2,8 +2,8 @@
 title: Kali试玩-Web安全
 date: 2017-03-18 23:45:13
 tags:
-- Web安全
-- Kali
+  - Web安全
+  - Kali
 ---
 
 > OWASP Mantra
@@ -12,9 +12,7 @@ tags:
 
 apt install owasp-mantra-ff
 
-<!-- more -->
-
-> Firefox插件
+> Firefox 插件
 
 - `Tamper Data`
   这个插件能够在请求由浏览器发送之后,捕获任何到达服务器的请求。这提供给我们了在将数据引入应用表单之后,在它到达服务器之前修改它的机会。
@@ -59,6 +57,6 @@ apt install owasp-mantra-ff
 
 > 客户端虚拟机
 
-  <http://dev.modern.ie/tools/vms/#downloads>
+<http://dev.modern.ie/tools/vms/#downloads>
 
-   1.8 P22
+1.8 P22

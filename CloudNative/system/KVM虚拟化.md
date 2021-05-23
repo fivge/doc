@@ -6,8 +6,6 @@ tags:
   - SDN
 ---
 
-<!-- more -->
-
 libvirt
 
 kvm

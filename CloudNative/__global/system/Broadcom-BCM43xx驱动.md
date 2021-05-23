@@ -10,8 +10,6 @@ tags:
 
 谷歌以下解决方法:
 
-<!-- more -->
-
 ```shell
 ~$ sudo apt-get update
 ~$ sudo apt-get install bcmwl-kernel-source

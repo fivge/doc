@@ -5,8 +5,6 @@ tags:
 categories:
 ---
 
-<!--more-->
-
 https://www.mycli.net/
 
 ```vbscript

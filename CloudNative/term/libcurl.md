@@ -17,8 +17,6 @@ categories:
 
 <https://github.com/jpbarrette/curlpp>
 
-<!--more-->
-
 libcurl
 
 ---

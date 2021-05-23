@@ -1,9 +1,3 @@
----
-+ doker
-+ mysql
-+ macOS
----
-
 ### Docker
 
 <https://yeasy.gitbooks.io/docker_practice/content/introduction/what.html>

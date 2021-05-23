@@ -70,8 +70,6 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 " :PluginClean      - 清除未使用插件,需要确认; 追加 ! 自动批准移除未使用插件
 ```
 
-<!--more-->
-
 ##### 0x02 YouCompleteMe
 
 > 自动补全插件(待配置,已安装)

@@ -3,9 +3,9 @@ title: XQuartz
 date: 2018-05-10 15:19:22
 updated: 2018-05-25 22:00:23
 tags:
-- macOS
+  - macOS
 categories:
-- macOS
+  - macOS
 ---
 
 ### XQuartz
@@ -14,14 +14,12 @@ categories:
 
 ```bash
 ➜  topo git:(master) ✗ wireshark
-QXcbConnection: Could not connect to display 
+QXcbConnection: Could not connect to display
 [1]    6057 abort (core dumped)  wireshark
-➜  topo git:(master) ✗ xterm 
-xterm: Xt error: Can't open display: 
+➜  topo git:(master) ✗ xterm
+xterm: Xt error: Can't open display:
 xterm: DISPLAY is not set
 ```
-
-<!--more--> 
 
 #####安装
 

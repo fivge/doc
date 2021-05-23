@@ -14,8 +14,6 @@ categories:
 - curl
 - axel
 
-<!--more-->
-
 ##### aria2
 
 <https://aria2.github.io>

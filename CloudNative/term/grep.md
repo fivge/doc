@@ -42,8 +42,6 @@ ps aux | grep '[h]ttpd'
 ps aux | grep -E --color 'bash|$'
 ```
 
-<!-- more -->
-
 - `-l` 列出包含指定模式的文件的文件名
 
 * `-n` 在文件中查找指定模式并显示匹配行的行号

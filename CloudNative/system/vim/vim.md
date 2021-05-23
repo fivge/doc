@@ -3,13 +3,13 @@ title: vim
 date: 2018-02-04 03:51:00
 update: 2018-05-16 23:03:00
 tags:
-- vim
-- Term
+  - vim
+  - Term
 categories:
-- Term
+  - Term
 ---
 
-### VIM配置
+### VIM 配置
 
 ##### 0x01 Vundle
 
@@ -70,8 +70,6 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 " :PluginClean      - 清除未使用插件,需要确认; 追加 ! 自动批准移除未使用插件
 ```
 
-<!--more-->
-
 ##### 0x02 YouCompleteMe
 
 > 自动补全插件(待配置,已安装)
@@ -102,7 +100,7 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 
 <https://github.com/alpertuna/vim-header>
 
-*F4自动添加作者信息*
+_F4 自动添加作者信息_
 
 ##### 快捷键
 
@@ -208,9 +206,9 @@ set fillchars=stl:/
 set fillchars=stlnc:/
 ```
 
-##### 0x08 重新加载vim配置
+##### 0x08 重新加载 vim 配置
 
- 在vim中执行:
+在 vim 中执行:
 
 ```basic
 :source %
@@ -222,11 +220,10 @@ set fillchars=stlnc:/
 
 <https://github.com/hotoo/pangu.vim>
 
-> 如果想在其他格式的文件中使用这个功能，可以执行 `:Pangu` 命令
+> 如果想在其他格式的文件中使用这个功能，可以执行  `:Pangu`  命令
 
 ##### 0x0A Usful link
 
 > 插件平台
 >
->  <https://vimawesome.com>
-
+> <https://vimawesome.com>

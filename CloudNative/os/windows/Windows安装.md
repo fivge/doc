@@ -63,7 +63,7 @@ Win 下推荐使用[软碟通](https://drive.google.com/open?id=0BzUyH3cJ-_5gVDY
 
 推荐使用[微 PE](http://www.wepe.com.cn)刻录 WinPE
 
-**推荐使用第二种方法安装系统<br>若原系统能进入，可使用第一种方法**
+**推荐使用第二种方法安装系统, 若原系统能进入，可使用第一种方法**
 
 ### 0x03 开始安装系统
 

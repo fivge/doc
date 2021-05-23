@@ -1,11 +1,11 @@
 ---
 title: python实现简单下载服务器
-tags: 
+tags:
   - python
   - Term
 date: 2017-03-03 20:05:30
 categories:
-- Term
+  - Term
 ---
 
 ### 0x01 简单下载功能(单线程)
@@ -16,15 +16,13 @@ categories:
 python -m SimpleHTTPServer 8088
 ```
 
-*默认端口号为 8000*
+_默认端口号为 8000_
 
 即可实现简单下载功能.但是无上传功能
 
 ### 0x02 上传下载皆可
 
 于是增加上传功能
-
-<!-- more -->
 
 ```python
 #!/usr/bin/env python
@@ -310,7 +308,5 @@ def test(HandlerClass=SimpleHTTPRequestHandler,
 if __name__ == '__main__':
     test()
 ```
-
-
 
 来自[Github](https://github.com/tualatrix/tools/blob/master/SimpleHTTPServerWithUpload.py)

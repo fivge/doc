@@ -2,12 +2,10 @@
 title: Kali试玩-1
 date: 2017-03-18 22:13:16
 tags:
-- Kali
+  - Kali
 ---
 
 我也不知道以后会有几篇ㄟ( ▔, ▔ )ㄏ
-
-<!-- more -->
 
 > lynis
 
@@ -21,11 +19,11 @@ tags:
 
 [配置](http://www.freebuf.com/articles/system/8381.html)
 
-> Windows靶机
+> Windows 靶机
 
 <https://technet.microsoft.com/en-US/ms376608>
 
-> Linux靶机
+> Linux 靶机
 
 <http://www.distrowatch.com>
 
@@ -35,6 +33,6 @@ tags:
 
   <https://www.turnkeylinux.org/wordpress>
 
-- Wordpress测试
+- Wordpress 测试
 
   wpscan

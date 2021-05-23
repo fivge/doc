@@ -2,12 +2,12 @@
 title: vim快速参考
 date: 2018-05-13 19:01:31
 tags:
-- vim
+  - vim
 categories:
-- Term
+  - Term
 ---
 
-# vim快速参考
+# vim 快速参考
 
 ```cnx
 *quickref.txt*	For Vim version 8.0.  最近更新: 2017年8月
@@ -20,10 +20,6 @@ categories:
 
 
 ```
-
-
-
-<!--more-->
 
 ```cnx
 
@@ -1360,4 +1356,3 @@ N 用来 (可选) 置于命令之前表示该命令执行的计数。
  vim:tw=78:ts=8:ft=help:norl:
 
 ```
-
