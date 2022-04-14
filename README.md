@@ -1,6 +1,7 @@
 ---
-id: init
-title: init
+id: intro
+slug: /
+title: intro
 hide_title: true
 ---
 

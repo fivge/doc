@@ -1,8 +1,6 @@
 ---
 title: mycli
 date: 2018-08-22 17:42:17
-tags:
-categories:
 ---
 
 https://www.mycli.net/

@@ -10,7 +10,7 @@ https://www.sitepen.com/blog/using-web-components-with-angular/
 
 #### component
 
-[Angular Elements](../angular/excel/elements.md)
+[Angular Elements]
 
 #### module
 
@@ -45,10 +45,6 @@ vue/react 项目打包成 Web Components，angular 项目中引用
 - nginx 路由
 - angular 项目打包成 Web Components，统一放到 空项目/仅基础 function 的 vue/react 项目或者包含公共部分的 angular 中
 
-
-
-
-
 ---
 
 [meituan](https://mp.weixin.qq.com/s/l17Uo6Q7up44uZI_VojFzw)
@@ -56,4 +52,3 @@ vue/react 项目打包成 Web Components，angular 项目中引用
 [single-spa](https://github.com/single-spa/single-spa)
 
 [cli](https://mp.weixin.qq.com/s/gfQH_0CcEpCqJzVg_HGGaA)
-

@@ -10,15 +10,9 @@ extend **implements**
 
 map list
 
-
-
 [lambda](./lambda.md)
 
-
-
 [spring boot](./spring-boot.md)
-
-
 
 [mybatis](mybatis.md)
 
@@ -29,8 +23,3 @@ dig sql
 builder
 
 more..
-
-
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: Windows下端口占用
 date: 2018-08-22 17:34:41
-tags:
-categories:
 ---
 
 ```powershell

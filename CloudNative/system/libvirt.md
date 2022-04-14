@@ -1,7 +1,6 @@
 ---
 title: Swap-libvirt
 date: 2017-08-08 19:13:16
-tags:
 ---
 
 ## UCloud 虚拟化在线迁移优化实践（一）： KVM 虚拟化跨机迁移原理
