@@ -116,6 +116,28 @@ h2 没有这个限制
 
 #### br
 
+需要模块支持
+
+todo
+
+https://github.com/google/ngx_brotli
+
+#### onion
+
+todo
+
+https://community.torproject.org/onion-services/
+
+#### h3
+
+需要模块支持
+
+todo
+
+https://quic.nginx.org/README
+
+https://github.com/cloudflare/quiche/tree/master/nginx
+
 ### Use
 
 #### 正向代理
