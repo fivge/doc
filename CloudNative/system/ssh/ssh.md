@@ -9,6 +9,25 @@ systemctl status sshd
 systemctl start sshd
 ```
 
+#### 禁用 root 登录
+
+```bash
+# 锁住
+passwd -l root
+# 解锁
+sudo passwd -u root
+```
+
+`/etc/ssh/sshd_config`
+
+```
+PermitRootLogin no
+```
+
+#### 修改登录欢迎语
+
+`/etc/motd`
+
 #### 自动登录
 
 ##### 使用公钥认证
@@ -227,7 +246,7 @@ ssh-keygen -R 要删除的主机名
 ssh host -l user $(<cmd.txt)
 ```
 
-​ 更具移植性的版本
+更具移植性的版本
 
 ```shell
 ssh host -l user “cat cmd.txt”

@@ -38,6 +38,7 @@ curl -L https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/mast
 
 ```bash
 ssh-copy-id -i  id_rsa.pub user@remoteserver
+
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
 user@remoteserver's password:
 Number of key(s) added: 1
@@ -47,7 +48,21 @@ and check to make sure that only the key(s) you wanted were added.
 
 `ssh-copy-id` 会确保你不会无意间复制了你的私钥。从上述输出中复制登录命令，记得带上其中的单引号，以测试你的新的密钥登录。
 
+```bash
+### 添加私钥到 ssh-agent
+ssh-add ~/.ssh/id_rsa
+### 若执行失败，提示
+### Could not open a connection to your authentication agent
+### 则执行
+
 ```
+
+```bash
+eval `ssh-agent`
+```
+
+```bash
+### 登录
 ssh 'user@remoteserver'
 ```
 
