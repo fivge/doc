@@ -28,6 +28,15 @@ PermitRootLogin no
 
 `/etc/motd`
 
+#### sshd 服务端心跳
+
+`/etc/ssh/sshd_config`
+
+```
+ClientAliveInterval 60
+ClientAliveCountMax 4
+```
+
 #### 自动登录
 
 ##### 使用公钥认证

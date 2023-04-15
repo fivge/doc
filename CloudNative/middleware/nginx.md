@@ -23,12 +23,12 @@ https://nginx.org/en/docs/configure.html
 配置
 
 ```nginx
-    # gizp
-    gzip on;
-    gzip_vary on;
-    gzip_proxied any;
-    gzip_comp_level 6;
-    gzip_types text/plain text/css text/xml application/json application/javascript application/rss+xml application/atom+xml image/svg+xml;
+# gizp
+gzip on;
+gzip_vary on;
+gzip_proxied any;
+gzip_comp_level 6;
+gzip_types text/plain text/css text/xml application/json application/javascript application/rss+xml application/atom+xml image/svg+xml;
 ```
 
 #### ssl
@@ -53,35 +53,42 @@ listen       443 ssl http2;
 
 https://github.com/google/ngx_brotli
 
-##### Dynamically loaded
+> 安装
 
 ```bash
 sudo git clone https://github.com/google/ngx_brotli.git
 cd ngx_brotli &&  sudo git submodule update --init
+```
+
+> Dynamically loaded
+
+```bash
 cd nginx-1.x.x
 ./configure --with-compat --add-dynamic-module=/srv/src/ngx_brotli
 make modules
 sudo cp objs/ngx_http_brotli_static_module.so objs/ngx_http_brotli_filter_module.so /srv/nginx/modules
 ```
 
-```
+`nginx.conf`
+
+```nginx
 load_module modules/ngx_http_brotli_filter_module.so;
 load_module modules/ngx_http_brotli_static_module.so;
 ```
 
-##### Statically compiled
+> Statically compiled
 
-```
+```bash
 ./configure --add-module=/path/to/ngx_brotli
 ```
 
-配置
+> 配置
 
 ```nginx
-    #br
-    brotli on;
-    brotli_comp_level 6;
-    brotli_types text/plain text/css text/markdown application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript image/svg+xml;
+#br
+brotli on;
+brotli_comp_level 6;
+brotli_types text/plain text/css text/markdown application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript image/svg+xml;
 ```
 
 #### onion
@@ -115,8 +122,8 @@ ninja
 ```
 
 ```
-        --with-http_v3_module     - enable QUIC and HTTP/3
-        --with-stream_quic_module - enable QUIC in Stream
+--with-http_v3_module     - enable QUIC and HTTP/3
+--with-stream_quic_module - enable QUIC in Stream
 ```
 
 ⚠ 注意：nginx 的 OCSP Stapling 是由 OpenSSL 实现，使用 BoringSSL 会导致该功能无法使用。实际使用体验上来说感觉无伤大雅。
@@ -183,6 +190,52 @@ server {
 
 #### 反向代理
 
+```nginx
+location /example {
+    proxy_pass https://example.com;
+}
+```
+
+将`httpd_can_network_connect`SELinux 布尔值参数设置为`1`，以便将 SELinux 设置为允许 NGINX 转发流量：
+
+```bash
+setsebool -P httpd_can_network_connect 1
+```
+
+https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-nginx-as-a-reverse-proxy-for-the-http-traffic_setting-up-and-configuring-nginx
+
+#### 负载均衡
+
+```nginx
+http {
+    upstream backend {
+        least_conn;
+        server server1.example.com;
+        server server2.example.com;
+        server server3.example.com backup;
+    }
+
+    server {
+        location / {
+            proxy_pass http://backend;
+        }
+    }
+}
+```
+
+​ 在名为`backend`的主机组中的`least_conn`指令定义了 NGINX 将请求发送到`server1.example.com`或`server2.example.com`，具体取决于哪个主机具有最少的活动连接数。NGINX 仅在其他两个主机不可用时使用`server3.example.com`作为备份。
+
+​ `proxy_pass`指令设置为`http://backend` 时，NGINX 充当反向代理，并使用`backend`主机组根据该组的设置分发请求。
+
+​ 您还可以指定其他方法，而不是`least_conn`负载均衡方法：
+
+- ​ 不指定方法，使用轮询的方式在服务器间平均分发请求。
+- ​ `ip_hash`根据从 IPv4 地址的前三个八位字节或客户端的整个 IPv6 地址计算的哈希值将来自一个客户端地址的请求发送到同一台服务器。
+- ​ `hash`，根据用户定义的密钥（可以是字符串、变量或两者的组合）来确定服务器。用`consistent`参数来进行配置，NGINX 可根据用户定义的哈希密钥值向所有的服务器分发请求。
+- ​ `random`将请求发送到随机挑选的服务器。
+
+https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/configuring-nginx-as-an-http-load-balancer_setting-up-and-configuring-nginx
+
 ### 0x04 管理
 
 #### 使用 sysytemd 管理
@@ -224,7 +277,6 @@ WantedBy=multi-user.target
 
 ### TODO
 
-- https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/8/html/deploying_different_types_of_servers/setting-up-and-configuring-nginx_deploying-different-types-of-servers
 - h3
 - 洋葱网络
 - 同步配置

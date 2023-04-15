@@ -26,6 +26,8 @@ acme.sh --set-default-ca --server zerossl
 
 - google https://pki.goog/
 
+  https://cloud.google.com/certificate-manager/docs/public-ca-tutorial
+
 - zerossl
 
   ```bash
@@ -40,10 +42,21 @@ acme.sh --set-default-ca --server zerossl
 http 方式需要在你的网站根目录下放置一个文件, 来验证你的域名所有权,完成验证. 然后就可以生成证书了.
 
 ```bash
-acme.sh --issue -d example.com -d www.example.com -d cp.example.com -w /home/wwwroot/example.com
+acme.sh --issue -d example.com -d www.example.com -d xxx.example.com -w /home/wwwroot/example.com
 ```
 
 ##### 3.2 dns 方式
+
+https://github.com/acmesh-official/acme.sh/wiki/dnsapi
+
+```
+acme.sh --issue --dns dns_cf -d 0x64.sh
+acme.sh --issue --dns dns_dp -d 0x64.ml
+```
+
+**⚠freenom 注册的域名不可以用 cloudflare dns**
+
+https://github.com/acmesh-official/acme.sh/issues/2989
 
 #### 4. 安装证书
 
@@ -74,6 +87,10 @@ acme.sh --renew -d  example.com --force
 openssl dhparam -out /etc/ssl/certs/dhparams.pem 2048
 ```
 
-### 四、校验
+> nginx 配置
+
+https://ssl-config.mozilla.org/
+
+### 四、验证
 
 <https://www.ssllabs.com/ssltest/>
