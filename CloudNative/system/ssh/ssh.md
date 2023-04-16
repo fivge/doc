@@ -1,6 +1,6 @@
 ### ssh
 
-#### 基本配置
+#### 0x01 基本配置
 
 ##### 启用 ssh 服务
 
@@ -9,7 +9,7 @@ systemctl status sshd
 systemctl start sshd
 ```
 
-#### 禁用 root 登录
+#### 0x02 禁用 root 登录
 
 ```bash
 # 锁住
@@ -24,11 +24,11 @@ sudo passwd -u root
 PermitRootLogin no
 ```
 
-#### 修改登录欢迎语
+#### 0x03 修改登录欢迎语
 
 `/etc/motd`
 
-#### sshd 服务端心跳
+#### 0x04 sshd 服务端心跳
 
 `/etc/ssh/sshd_config`
 
@@ -37,7 +37,7 @@ ClientAliveInterval 60
 ClientAliveCountMax 4
 ```
 
-#### 自动登录
+#### 0x05 自动登录
 
 ##### 使用公钥认证
 
@@ -45,59 +45,36 @@ ClientAliveCountMax 4
 
 使用 RSA 密钥对管理多个用户是一种好的方法。当一个用户离开了，只要从服务器删了他的公钥就能取消他的登录。
 
-以下例子创建一个新的 3072 位长度的密钥对，它比默认的 2048 位更安全，而且为它起一个独一无二的名字，这样你就可以知道它属于哪个服务器。
+以下例子，它比默认的 2048 位更安全，而且为它起一个独一无二的名字，这样你就可以知道它属于哪个服务器。
+
+> 创建密钥对
+
+创建一个新的 3072 位长度的密钥对，名为 foo
 
 ```
-ssh-keygen -t rsa -b 3072 -f id_mailserver
+ssh-keygen -t rsa -b 3072 -f foo
 ```
 
-以下创建两个新的密钥, `id_mailserver` 和 `id_mailserver.pub`，`id_mailserver` 是你的私钥--不要传播它！
-
-现在用 `ssh-copy-id` 命令安全地复制你的公钥到你的远程服务器。你必须确保在远程服务器上有可用的 SSH 登录方式。
-
----
-
-> What!Mac 上没有`ssh-copy-id`
-
-```
-curl -L https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/master/install.sh | sh
-```
-
-详见<https://github.com/beautifulcode/ssh-copy-id-for-OSX>
-
----
+> 复制密钥到服务器-ssh-copy-id
 
 ```bash
-ssh-copy-id -i  id_rsa.pub user@remoteserver
-
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-user@remoteserver's password:
-Number of key(s) added: 1
-Now try logging into the machine, with:   "ssh 'user@remoteserver'"
-and check to make sure that only the key(s) you wanted were added.
-```
-
-`ssh-copy-id` 会确保你不会无意间复制了你的私钥。从上述输出中复制登录命令，记得带上其中的单引号，以测试你的新的密钥登录。
-
-```bash
+ssh-copy-id -i foo.pub -p 233 user@remoteserver
 ### 添加私钥到 ssh-agent
 ssh-add ~/.ssh/id_rsa
 ### 若执行失败，提示
 ### Could not open a connection to your authentication agent
 ### 则执行
-
-```
-
-```bash
 eval `ssh-agent`
+
 ```
 
-```bash
-### 登录
-ssh 'user@remoteserver'
+> 复制密钥到服务器-手动操作
+
+```
+echo 'ssh-rsa XXXX' >>/root/.ssh/authorized_keys
 ```
 
-它将用你的新密钥登录，如果你为你的私钥设置了密码，它会提示你输入。
+可以在== 后加入用户注释标识方便管理
 
 ##### 编辑 sshd_config 文件
 
@@ -117,29 +94,21 @@ AuthorsizedKeysFile .ssh/authorized_keys
 
 **重启 SSH 服务前建议多保留一个会话以防不测**
 
-然后重启服务器上的 SSH 守护进程。
+然后重启服务器上的 SSH 守护进程
 
 ```bash
 systemctl restart sshd
 ```
 
-以后登录使用
+登录使用
 
 ```bash
-ssh -p 2222 root@servers
+ssh -p 233 root@servers
+# 指定密钥
+ssh -p 233 root@servers -i .ssh/foo
 ```
 
-##### 手动增加管理用户
-
-**可以在== 后加入用户注释标识方便管理**
-
-```bash
-echo 'ssh-rsa XXXX' >>/root/.ssh/authorized_keys
-# 复查
-cat /root/.ssh/authorized_keys
-```
-
-#### 最佳命令
+#### 0x06 最佳命令
 
 - 从某主机的 80 端口开启到本地主机 2001 端口的隧道
 

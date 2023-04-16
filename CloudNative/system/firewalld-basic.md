@@ -20,7 +20,8 @@ tags:
 - 安装防火墙
 
 ```shell
-yum install firewalld firewall-config
+yum install firewalld
+# firewall-config 图形界面
 ```
 
 - 启用&禁用防火墙
@@ -354,6 +355,8 @@ firewall-cmd --zone=external --add-forward-port=port=22:proto=tcp:toport=2055:to
 
   ```shell
   firewall-cmd --zone=public --add-port=8080/tcp --permanent
+  firewall-cmd --zone=public --add-port=23333/tcp --permanent
+  firewall-cmd --zone=public --add-port=443/tcp --permanent
   ```
 
 - 重新加载防火墙(不丢失用户信息)
