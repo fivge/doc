@@ -1,6 +1,6 @@
 ---
 id: vscode-extensions
-title: VSCode 常用插件
+title: VSCode扩展
 ---
 
 ### `settings.json`
