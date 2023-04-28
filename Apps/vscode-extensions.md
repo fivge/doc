@@ -3,28 +3,76 @@ id: vscode-extensions
 title: VSCode扩展
 ---
 
-### `settings.json`
+### settings
+
+### extensions
+
+##### background
+
+https://github.com/shalldie/vscode-background
 
 ```json
-{
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "editor.formatOnSave": true
-}
+  "background.useDefault": false,
+"background.customImages": [
+    ""
+  ],
+  "background.fullscreen": {
+    "image": "",
+    "opacity": 0.98,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
 ```
 
-> ### Prettier - Code formatter
+##### Better Comments
 
-![](https://raw.githubusercontent.com/fivge/hexo-pic/master/2019/20190329105900.png)
-
-##### `settings.json`
+##### TODO Highlight
 
 ```json
-    "editor.formatOnSave": true,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "#ffbd2a"
+      // "overviewRulerColor": "rgba(255,189,42,0.8)"
+    },
+    {
+      "text": "FIXME",
+      "color": "#f06292",
+      "overviewRulerColor": "rgba(240,98,146,0.8)",
+      "isWholeLine": true
+      // "fontWeight": 800
+    },
+  ],
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "rgba(255,255,255,0)"
+  },
 ```
 
-##### `.prettierrc`
+##### Color Highlight
+
+##### IntelliCode
+
+##### GitLens
+
+##### git-commit-lint-vscode
+
+```json
+  "gitCommitLintVscode.customFormat": "${type}: ",
+```
+
+##### Markdown All in One
+
+##### NGINX Configuration Language Support
+
+##### REST Client
+
+##### WSL
+
+##### Prettier
+
+`.prettierrc`
 
 ```json
 {
@@ -38,19 +86,3 @@ title: VSCode扩展
   "arrowParens": "avoid"
 }
 ```
-
-> ### Angular 7 Snippets
-
-![](https://raw.githubusercontent.com/fivge/hexo-pic/master/2019/20190329113014.png)
-
-> ### NG-ZORRO Snippets
-
-![1553830294937](C:\Users\LUANXI~1\AppData\Local\Temp\1553830294937.png)
-
-##### `settings.json`
-
-```json
-    "ng-zorro-vscode.language": "zh-CN",
-```
-
-> ### TODO Highlight
