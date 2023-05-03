@@ -1,27 +1,35 @@
 ---
-title: Tools
+title: Terminal
 ---
 
-### Windows
+### Terminal
 
-`Git Bash` <https://git-scm.com/downloads>
+> Windows only
 
 `terminal` <https://github.com/microsoft/terminal> _(>=Windows 10 1903)_
 
+`Git Bash` <https://git-scm.com/downloads>
+
 `cmder` <https://github.com/cmderdev/cmder>
 
-### cross plat
+> cross plat
 
 `hyper` <https://github.com/zeit/hyper>
 
 `terminus` <https://github.com/Eugeny/terminus>
 
-### 等宽字体
+### fonts
 
 `Hack` <https://github.com/source-foundry/Hack>
 
 `Cascadia Code` <https://github.com/microsoft/cascadia-code>
 
-### powershell
+### shell
 
-<https://github.com/PowerShell/PowerShell>
+> Windows only
+
+- powershell <https://github.com/PowerShell/PowerShell>
+
+> mac linux
+
+- zsh
