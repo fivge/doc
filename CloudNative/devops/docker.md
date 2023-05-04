@@ -1,16 +1,8 @@
-### docker
+### 0x01 install
 
-#### install
+`debian`
 
-```bash
-sudo zypper install docker
-```
-
-更改 docker hub 源
-
-<https://mirrors.ustc.edu.cn/help/dockerhub.html>
-
-docker 默认使用 `sudo`
+https://docs.docker.com/engine/install/debian/
 
 ```bash
 docker --help
@@ -59,7 +51,13 @@ docker --help
 docker info
 ```
 
-#### image
+### 0x02 更改 docker hub 源
+
+<https://mirrors.ustc.edu.cn/help/dockerhub.html>
+
+docker 默认使用 `sudo`
+
+### 0x03 image
 
 ```bash
 ### 查找指定镜像
@@ -74,7 +72,7 @@ docker rmi 7aa3095f0856
 
 > 删除镜像需要先删除使用镜像的容器
 
-#### container
+### 0x04 container
 
 ##### 启动镜像
 
@@ -120,7 +118,7 @@ docker container prune
 docker commit 90cb8a003744 luanxt/ubuntu-bak
 ```
 
-#### Dockerfile
+### 0x05 Dockerfile
 
 <https://docs.docker.com/engine/reference/builder/>
 
@@ -128,7 +126,7 @@ docker commit 90cb8a003744 luanxt/ubuntu-bak
 
 <https://www.cnblogs.com/boshen-hzb/p/6400272.html>
 
-#### config
+### 0x06 config
 
 ##### 扩容
 
@@ -148,6 +146,6 @@ mount -o bind /var/lib/docker /opt/docker
 
 ---
 
-##### ref
+### ref
 
 - <https://linux.cn/article-10940-1.html>

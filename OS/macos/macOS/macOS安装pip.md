@@ -2,16 +2,16 @@
 title: macOS安装pip
 date: 2018-01-06 22:43:43
 tags:
-- macOSTerm
-- pip
+  - macOSTerm
+  - pip
 categories:
-- macOS
+  - macOS
 ---
 
-### 安装pip
+### 安装 pip
 
 ```shell
-wget https://bootstrap.pypa.io/get-pip.py 
+wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py   ### sudo!!!
 ```
 
@@ -43,11 +43,6 @@ Traceback (most recent call last):
 OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip'
 ```
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fn79y91xrpj31610l379k.jpg)
-
-
-
 > 参考链接
 
 <https://pip.pypa.io/en/stable/installing/>
-

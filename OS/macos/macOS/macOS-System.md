@@ -3,13 +3,12 @@ title: macOS System
 date: 2017-06-29 19:48:42
 updated: 2018-04-21
 tags:
-- macOS
+  - macOS
 categories:
-- macOS
+  - macOS
 ---
 
-
-### 1. 挂载NTFS分区
+### 1. 挂载 NTFS 分区
 
 ```bash
 Mac:~ x$ ls /Volumes/
@@ -18,7 +17,7 @@ Mac			Tuxera NTFS 2014	用户
 Mac:~ x$ diskutil info /Volumes/用户 | grep UUID
    Volume UUID:              47C13D50-07B9-4D48-AEA0-6B1543F8339E
    Disk / Partition UUID:    427F3E08-3EFD-4D57-8B8D-4A5C0DD8FDF4
-Mac:~ x$ echo "UUID=47C13D50-07B9-4D48-AEA0-6B1543F8339E none ntfs rw,auto,nobrowse" | sudo tee -a /etc/fstab 
+Mac:~ x$ echo "UUID=47C13D50-07B9-4D48-AEA0-6B1543F8339E none ntfs rw,auto,nobrowse" | sudo tee -a /etc/fstab
 ```
 
 ```bash
@@ -34,7 +33,7 @@ com.apple.FinderInfo:
 00000010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  |................|
 00000020
 com.apple.TextEncoding: utf-8;134217984
-⚒ xattr -d com.apple.FinderInfo /Volumes/App/【安装包】/Mac/硬件概要.md   
+⚒ xattr -d com.apple.FinderInfo /Volumes/App/【安装包】/Mac/硬件概要.md
 ```
 
 ### 3.pkg
@@ -111,7 +110,7 @@ pkg-uninstall <name>
 
 ##### Using internally in package to build uninstaller
 
-- You have to bundle `pkg-wrapper` with your application 
+- You have to bundle `pkg-wrapper` with your application
   and install it to disk before executing the hook bellow.
 - In before installing hook call this script:
 
@@ -141,7 +140,7 @@ rm /path/to/uninstaller_name.sh
 [1]: https://github.com/mpapis/pkg_uninstaller
 [2]: http://www.corecode.at/uninstallpkg/
 
-### 4.mac汇编语言
+### 4.mac 汇编语言
 
 ```bash
 brew install nasm
@@ -157,9 +156,9 @@ brew install nasm
 
 > OS X 系统下:
 
-- 打开磁盘工具，选择U盘，进行分区；
-- 分为一个300MB左右的名为EFI的FAT类型的盘，剩下的都为OS X扩展，命名为Install OS X El Capitan
-- 右击Install OS X El Capitan.app -> 显示包内容 -> Contents -> Resources -> 
+- 打开磁盘工具，选择 U 盘，进行分区；
+- 分为一个 300MB 左右的名为 EFI 的 FAT 类型的盘，剩下的都为 OS X 扩展，命名为 Install OS X El Capitan
+- 右击 Install OS X El Capitan.app -> 显示包内容 -> Contents -> Resources ->
   createinstallmedia , 复制该文件至桌面
 - 打开终端
 
@@ -189,4 +188,4 @@ defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finde
 
 **new**
 
-> 在macOS 10.12中可以直接通过快捷键![](https://ws4.sinaimg.cn/large/006tKfTcly1fh2blomlehj301y00ka9u.jpg) 来开关
+> 在 macOS 10.12 中可以直接通过快捷键来开关

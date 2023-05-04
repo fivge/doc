@@ -1,0 +1,4 @@
+- https://github.com/alex-dinh/keychron-k8
+- https://github.com/SonixQMK/qmk_firmware/tree/sn32_master/keyboards/keychron/k8
+- https://www.keychron.com/blogs/news/k8-key-combinations
+- via https://usevia.app/

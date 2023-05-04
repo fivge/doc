@@ -7,5 +7,3 @@ file
 ```sh
 find / -name "Adobe Application Manager"
 ```
-
-![](http://ww4.sinaimg.cn/large/006tKfTcly1fembtovb9cj30pf0altf3.jpg)

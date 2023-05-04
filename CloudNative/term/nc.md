@@ -1,6 +1,21 @@
-### nc
+# nc
 
 > nc -- arbitrary TCP and UDP connections and listens
+
+#### 0x01 安装
+
+`netcat-openbsd`
+
+https://packages.debian.org/sid/netcat-openbsd
+
+```bash
+### archlinux
+# https://archlinux.org/packages/community/x86_64/openbsd-netcat/
+### OpenSUSE
+zypper install netcat-openbsd
+```
+
+#### 0x02 使用
 
 ```bash
 # To open a TCP connection to port 42 of host.example.com, using port 31337 as the source port, with a timeout of 5 seconds:
@@ -36,9 +51,7 @@ netstat -ntpl
 lsof -i:80
 ```
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fft8elqrxhj30r80cb7ab.jpg)
-
-#### example
+#### 0x03 example
 
 ```bash
 ### server开启TCP端口
