@@ -1,0 +1,2 @@
+- https://reactnative.dev/
+- https://github.com/facebook/hermes
