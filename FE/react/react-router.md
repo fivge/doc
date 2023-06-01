@@ -103,6 +103,8 @@ ngOnInit() {
 create a [Browser Router](https://reactrouter.com/en/main/routers/create-browser-router)
 
 ```js
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -129,6 +131,8 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
+<RouterProvider router={router} />
 ```
 
 路由出口
@@ -140,6 +144,43 @@ import { Outlet } from "react-router-dom";
 
 <Outlet />;
 ```
+
+error page component
+
+```js
+{
+    errorElement: <ErrorPage />,
+}
+```
+
+路由跳转
+
+```js
+import { Link, NavLink } from "react-router-dom";
+
+<Link to="/contacts/foo">link</Link>
+
+<NavLink to="/contacts/foo" className={({ isActive, isPending }) => (isActive ? "active" : isPending ? "pending" : "")}>
+	navlink
+</NavLink>
+```
+
+```
+import {
+  Outlet,
+  Link,
+  useLoaderData,
+  Form,
+  redirect,
+} from "react-router-dom";
+
+export async function action() {
+  const contact = await createContact();
+  return redirect(`/contacts/${contact.id}/edit`);
+}
+```
+
+
 
 ### reactrouter
 
