@@ -1,104 +1,6 @@
-https://reactrouter.com/en/main/start/tutorial
+# react router
 
-### 路由
-
-路由模块 AppRoutingModule
-
-```js
-routing
-const routes: Routes = [];
-
-通配符路由
-重定向
-嵌套路由
-? 路由参数
-
-const routes: Routes = [
-  { path: 'first-component', component: FirstComponent },
-  { path: 'second-component', component: SecondComponent },
-  {
-    path: 'first-component',
-    component: FirstComponent, // this is the component with the <router-outlet> in the template
-    children: [
-      {
-        path: 'child-a', // child route path
-        component: ChildAComponent, // child route component that the router renders
-      },
-      {
-        path: 'child-b',
-        component: ChildBComponent, // another child route component that the router renders
-      },
-    ],
-  },
-  { path: '',   redirectTo: '/first-component', pathMatch: 'full' }, // redirect to `first-component`
-  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
-];
-```
-
-```js
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-
-constructor(
-  private route: ActivatedRoute,
-) {}
-
-ngOnInit() {
-  this.route.queryParams.subscribe(params => {
-    this.name = params['name'];
-  });
-}
-```
-
-路由跳转
-
-相对路径
-
-```
-<a routerLink="../second-component">Relative Route to second component</a>
-
-goToItems() {
-  this.router.navigate(['items'], { relativeTo: this.route });
-}
-```
-
-访问查询参数和片段
-
-'/:id'
-
-```
-/crisis-center/1
-```
-
-```js
-// 跳转
-const heroId = hero ? hero.id : null;
-  // Pass along the hero id if available
-  // so that the HeroList component can select that item.
-  this.router.navigate(['/heroes', { id: heroId }]);
-
-
-// 接收
-ngOnInit() {
-  this.heroes$ = this.route.paramMap.pipe(
-    switchMap(params => {
-      this.selectedId = Number(params.get('id'));
-      return this.service.getHeroes();
-    })
-  );
-}
-
-  const heroId = this.route.snapshot.paramMap.get('id');
-```
-
-惰性加载
-
-路由守卫
-
-防止未经授权的访问
-
-### rc-r
-
-#### Router
+> 路由配置
 
 create a [Browser Router](https://reactrouter.com/en/main/routers/create-browser-router)
 
@@ -111,31 +13,77 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "contacts",
-    element: <Root />,
+    path: "contact",
+    element: <ContactRoot />,
     errorElement: <ErrorPage />,
-    loader: rootLoader,
-    action: rootAction,
     children: [
+      { index: true, element: <ContactHome /> },
       {
-        path: "contacts/:contactId",
+        path: ":contactId",
         element: <Contact />,
-        loader: contactLoader,
       },
       {
-        path: "contacts/:contactId/edit",
+        path: ":contactId/edit",
         element: <EditContact />,
-        loader: contactLoader,
         action: editAction,
       },
     ],
   },
 ]);
 
-<RouterProvider router={router} />
+<RouterProvider router={router} />;
 ```
 
-路由出口
+**error page component**
+
+```js
+{
+    errorElement: <ErrorPage />,
+}
+```
+
+**index route**
+
+```js
+{ index: true, element: <ContactHome /> }
+```
+
+Note the`{ index:true }` instead of`{ path: "" }`
+
+**pathless routes**
+
+```js
+createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    loader: rootLoader,
+    action: rootAction,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        errorElement: <ErrorPage />,
+        children: [
+          { index: true, element: <Index /> },
+          {
+            path: "contacts/:contactId",
+            element: <Contact />,
+            loader: contactLoader,
+            action: contactAction,
+          },
+          /* the rest of the routes */
+        ],
+      },
+    ],
+  },
+]);
+```
+
+> lazy
+
+https://reactrouter.com/en/main/route/lazy
+
+> 路由出口
 
 ![](https://angular.cn/generated/images/guide/router/shell-and-outlet.gif)
 
@@ -145,15 +93,9 @@ import { Outlet } from "react-router-dom";
 <Outlet />;
 ```
 
-error page component
+> 路由跳转
 
-```js
-{
-    errorElement: <ErrorPage />,
-}
-```
-
-路由跳转
+**useNavigate**
 
 ```js
 import { Link, NavLink } from "react-router-dom";
@@ -165,68 +107,83 @@ import { Link, NavLink } from "react-router-dom";
 </NavLink>
 ```
 
+```js
+import { useNavigate } from "react-router-dom";
+
+const navigate = useNavigate();
+
+navigate("/foo");
+navigate(-1);
 ```
-import {
-  Outlet,
-  Link,
-  useLoaderData,
-  Form,
-  redirect,
-} from "react-router-dom";
+
+_action_
+
+```js
+import { redirect } from "react-router-dom";
 
 export async function action() {
-  const contact = await createContact();
-  return redirect(`/contacts/${contact.id}/edit`);
+  return redirect("/foo");
 }
 ```
 
+> 路由状态
 
+```js
+import { useNavigation } from "react-router-dom";
 
-### reactrouter
+const navigation = useNavigation();
 
-#### router
+navigation.state === "loading" ? "loading" : "";
+navigation.location;
+```
 
-##### router
+navigation: `"idle" | "submitting" | "loading"`
 
-##### children
+> 路由参数
 
-index route
+**params(URL Params)**
 
-##### errorElement
-
-##### loader
-
-##### action ( the "old school web" programming model)
-
-##### Form
-
-1. The `<Form action="destroy">` matches the new route at `"contacts/:contactId/destroy"` and sends it the request
-
-Add a form, add an action, React Router does the rest.
-
-##### dynamic segment
-
-URL Params / params
+`/contracts/1234`
 
 `:contactId`
 
-##### redirect
-
-##### **`NavLink`**
-
-```
-isActive
-isPending
+```js
+      {
+        path: "contacts/:contactId",
+        element: <Contact />,
+      },
 ```
 
-##### unresponsive navigation
+```js
+import { useParams } from "react-router-dom";
 
-```tsx
-const navigate = useNavigate();
+const { contactId } = useParams();
 ```
+
+_loader_
+
+```js
+import { useLoaderData } from "react-router-dom";
+
+const contact = useLoaderData();
+
+export async function loader({ params }) {
+  return getContact(params.contactId);
+}
+```
+
+**URLSearchParams**
+
+`/contracts?name=foo`
+
+```js
+import { useSearchParams } from "react-router-dom";
+
+let [searchParams, setSearchParams] = useSearchParams();
+```
+
+> 路由守卫
 
 ---
 
-https://reactrouter.com/en/main/start/tutorial#deleting-records
-
-https://github.com/ng-alain/ng-alain/tree/master/src/app/routes
+https://reactrouter.com/en/main/start/tutorial
