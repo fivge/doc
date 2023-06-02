@@ -39,6 +39,80 @@ docker compose up -d
 
   https://docs.docker.com/compose/environment-variables/set-environment-variables/#substitute-with---env-file
 
+#### network
+
+https://docs.docker.com/compose/networking/
+
+##### quick start
+
+在目录 `mysapp`下，通过 `docker compose up`启动服务，将默认创建一个名为 `myapp_default`的网络。
+
+可以通过`docker network ls`查看
+
+```bash
+➜  ~ sudo docker network ls
+
+NETWORK ID     NAME             DRIVER    SCOPE
+e3ffe522bdaa   myapp_default·   bridge    local
+```
+
+##### 连接
+
+在同一个 `docker compose`文件中，可以直接通过`service`下的服务名直接连接。
+
+例如:
+
+```yaml
+services:
+  db:
+    image: postgres
+    ports:
+      - '8001:5432'
+  web:
+    build: .
+    ports:
+      - '8000:8000'
+    environment:
+      - POSTGRES_PORT=5432
+      - POSTGRES_HOST=db
+```
+
+`web`服务可以直接通过`postgres://db:5432`连接到`db·服务
+
+##### links
+
+> 创建别名
+
+```yaml
+services:
+  db:
+    image: postgres
+    ports:
+      - '8001:5432'
+  web:
+    build: .
+    ports:
+      - '8000:8000'
+    links:
+      - 'db:database'
+    environment:
+      - POSTGRES_PORT=5432
+      - POSTGRES_HOST=database
+```
+
+##### networks 指定自定义网络
+
+```bash
+services:
+  # ...
+networks:
+  network1:
+    name: my-pre-existing-network
+    external: true
+```
+
+`external: true`不会创建网络，而会查找存在的网络
+
 #### 示例
 
 ```bash
