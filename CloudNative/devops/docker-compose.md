@@ -4,7 +4,7 @@ title: Docker Compose
 
 ### 0x01 安装
 
-https://github.com/docker/compose
+<https://github.com/docker/compose>
 
 从 [github](https://github.com/docker/compose/releases) 下载安装
 
@@ -27,21 +27,25 @@ docker compose up -d
 
   启动停止
 
+- pull
+
+  更新镜像
+
 - -f
 
   配置文件，默认为 `docker-compose.yml`
 
-  https://docs.docker.com/compose/reference/#use--f-to-specify-name-and-path-of-one-or-more-compose-files
+  <https://docs.docker.com/compose/reference/#use--f-to-specify-name-and-path-of-one-or-more-compose-files>
 
 - --env-file
 
   环境变量文件，默认为项目目录(与`docker-compose.yml`同级)中的 `.env`文件
 
-  https://docs.docker.com/compose/environment-variables/set-environment-variables/#substitute-with---env-file
+  <https://docs.docker.com/compose/environment-variables/set-environment-variables/#substitute-with---env-file>
 
 #### network
 
-https://docs.docker.com/compose/networking/
+<https://docs.docker.com/compose/networking/>
 
 ##### quick start
 
