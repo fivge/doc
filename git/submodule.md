@@ -31,7 +31,10 @@ index 0000000..ac54805
 > #### 仅拉取
 
 ```bash
-git pull && git submodule update
+git pull
+# 初始化
+git submodule init
+git submodule update
 ```
 
 > #### 同步

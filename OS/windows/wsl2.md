@@ -58,6 +58,12 @@ export all_proxy="socks5://${hostip}:7890"
 unset all_proxy
 ```
 
+> 高级配置
+
+[WSL 中的高级设置配置](https://learn.microsoft.com/zh-CN/windows/wsl/wsl-config)
+
+例如: WSL 是否会将 Windows 路径元素添加到 $PATH 环境变量
+
 ### 3. 常用软件
 
 `screenfetch`
@@ -78,7 +84,15 @@ unset all_proxy
 
 `c`系列
 
+`VS Code`
+
+```bash
+export PATH=$PATH:/mnt/c/App/Microsoft\ VS\ Code/bin
+```
+
 ### 5. Q&A
+
+#### Q1
 
 > ```bash
 >  ➜  ~ tmux
