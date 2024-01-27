@@ -10,17 +10,33 @@ http://www.bitcomet.com/cn
 
 7zip
 
-cpuz...
+cpuz
 
-Clash.for.Windows-0.19.12-win
+~~Clash~~
 
-Motrix-1.6.11-win
+Motrix
 
-platform-tools_r30.0.4-windows
+platform-tools
 
-https://github.com/pbatard/rufus/ 格式化 U 盘
+刻录工具 https://github.com/pbatard/rufus/
 
 TreeSizeFree-Portable
+
+https://github.com/localsend/localsend
+
+> 局域网传文件
+
+https://github.com/zhongyang219/TrafficMonitor
+
+> 一个桌面悬浮窗软件
+
+https://www.snipaste.com/
+
+> 截图
+
+https://github.com/Tatsu-syo/noMeiryoUI
+
+> 更改系统字体
 
 ### 编程
 
@@ -49,6 +65,16 @@ npcap
 ### 美化
 
 https://github.com/MicaForEveryone/MicaForEveryone
+
+### start menus
+
+|     |                                                    |                                            |
+| --- | -------------------------------------------------- | ------------------------------------------ |
+|     | https://github.com/valinet/ExplorerPatcher         | 有 bug 开始菜单无法响应 ；安装、卸载不明显 |
+|     | https://github.com/Open-Shell/Open-Shell-Menu      | 可以使用/ 只有 win7 风格                   |
+|     | https://github.com/MicaForEveryone/MicaForEveryone | ？                                         |
+
+https://blackysgate.de/ wtf
 
 ### 影音娱乐
 

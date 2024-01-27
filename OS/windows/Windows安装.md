@@ -37,25 +37,27 @@ Win7 及更低版本需解压镜像文件(一般解压到非系统盘(一般为 
 
 - 使用软件刻录镜像到 U 盘，制造启动盘
 
-Win 下推荐使用[软碟通](https://drive.google.com/open?id=0BzUyH3cJ-_5gVDY3bXJyX0VYeGs)进行刻录
+~~Win 下推荐使用[软碟通](https://drive.google.com/open?id=0BzUyH3cJ-_5gVDY3bXJyX0VYeGs)进行刻录~~
 
-![](https://img.0x64.ml/2023/05/32ffbb6072012726c7ea86815d8de48e.jpg)
+Windows 下使用[rufus](https://github.com/pbatard/rufus/)进行刻录
 
-![](https://img.0x64.ml/2023/05/f589f4923b34cb4a45b623132768bb9a.jpg)
+![](https://img.0x64.in/2023/05/32ffbb6072012726c7ea86815d8de48e.jpg)
 
-![](https://img.0x64.ml/2023/05/10896ca1206cce243c663f7d2d670977.jpg)
+![](https://img.0x64.in/2023/05/f589f4923b34cb4a45b623132768bb9a.jpg)
 
-![](https://img.0x64.ml/2023/05/6ec60487923c7a9767fe532b48b4e02f.jpg)
+![](https://img.0x64.in/2023/05/10896ca1206cce243c663f7d2d670977.jpg)
 
-![](https://img.0x64.ml/2023/05/fb76f48ff7a539c5c7357ab06730ee23.jpg)
+![](https://img.0x64.in/2023/05/6ec60487923c7a9767fe532b48b4e02f.jpg)
+
+![](https://img.0x64.in/2023/05/fb76f48ff7a539c5c7357ab06730ee23.jpg)
 
 - 开机按`F2`或`F12`(一般这俩键了)进入`Bios`
 - 设置 Bios 中 U 盘为第一启动项
 - `F10`保存并退出(一般是 F10)
 
-![](https://img.0x64.ml/2023/05/86b86e43dd78f41b38aa7a00aaf9328e.jpg)
+![](https://img.0x64.in/2023/05/86b86e43dd78f41b38aa7a00aaf9328e.jpg)
 
-![](https://img.0x64.ml/2023/05/37134a8e3469b4e12b1fe1a4618b483b.jpg)
+![](https://img.0x64.in/2023/05/37134a8e3469b4e12b1fe1a4618b483b.jpg)
 
 #### (4) 进入 PE 安装系统
 
@@ -103,9 +105,9 @@ exit
 
 [^1]: 若无法转换，可在 PE 下通过磁盘工具无损转换分区格式
 
-![](https://img.0x64.ml/2023/05/27ca61a20d23735a5ced12c2d74df5d3.jpg)
+![](https://img.0x64.in/2023/05/27ca61a20d23735a5ced12c2d74df5d3.jpg)
 
-![](https://img.0x64.ml/2023/05/efd054c573c555c6c65d5678b0180e63.jpg)
+![](https://img.0x64.in/2023/05/efd054c573c555c6c65d5678b0180e63.jpg)
 
 ### 0x04 安装之后
 
