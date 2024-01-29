@@ -239,7 +239,7 @@ firewall-cmd --set-default-zone=public
 firewall-cmd --zone=public --list-ports
 ```
 
-[!](d)要将一个端口加入一个分区，例如，允许 TCP 的流量通过端口 8080 的 进入`public`分区，则以 root 身份输入以下命令：
+要将一个端口加入一个分区，例如，允许 TCP 的流量通过端口 8080 的 进入`public`分区，则以 root 身份输入以下命令：
 
 ```shell
 firewall-cmd --zone=public --add-port=8080/tcp --permanent
