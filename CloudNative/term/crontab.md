@@ -22,4 +22,4 @@ Options:
 Default operation is replace, per 1003.2
 ```
 
-<https://crontab.guru/>
+https://crontab.guru/

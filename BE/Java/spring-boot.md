@@ -101,7 +101,7 @@ A few examples to try out:
 
 #### Repository
 
-`Entity` <==> `Repository`
+`Entity` `<==>` `Repository`
 
 ```java
 import java.util.List;

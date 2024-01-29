@@ -16,6 +16,7 @@ aclDeny
 
 ---
 
+```
 picture
 
 customPic
@@ -38,7 +39,6 @@ dom => pic
 
 1 === 1
 
-```
 // authInfo
 userInfo = {
     userId: "",

@@ -1,12 +1,28 @@
-#1.Term
-###(1) 显示包列表
-    pkgutil --pkgs
-###(2)列出所关联的文件
-    pkgutil --files com.Hackintosh.voodoohda287.Voodoo.pkg
-##2.UninstallPKG(要钱的)
+# pkg
+
+## 1.Term
+
+### (1) 显示包列表
+
+```bash
+pkgutil --pkgs
+```
+
+### (2)列出所关联的文件
+
+```bash
+pkgutil --files com.Hackintosh.voodoohda287.Voodoo.pkg
+```
+
+## 2.UninstallPKG(要钱的)
+
 [UninstallPKG][2]
-#3.pkg_uninstaller(貌似没用)
+
+# 3.pkg_uninstaller(貌似没用)
+
 [pkg_uninstaller][1]
+
+```bash
 ## Installation
 
 Installation is as simple as:
@@ -49,6 +65,7 @@ Uninstall package:
 and install it to disk before executing the hook bellow.
 
 - In before installing hook call this script:
+```
 
 ```
 #!/bin/bash
@@ -73,6 +90,5 @@ pkg-wrapper before "your package name" /path/to/uninstaller_name.sh
 rm /path/to/uninstaller_name.sh
 ```
 
-
-[1]:https://github.com/mpapis/pkg_uninstaller 
-[2]:http://www.corecode.at/uninstallpkg/
+[1]: https://github.com/mpapis/pkg_uninstaller
+[2]: http://www.corecode.at/uninstallpkg/

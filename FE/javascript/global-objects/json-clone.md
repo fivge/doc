@@ -117,7 +117,7 @@ console.log(clone[3]); // {code:"source"}
 
 只在浏览器中适用
 
-<https://developer.mozilla.org/zh-CN/docs/Web/API/notification>
+https://developer.mozilla.org/zh-CN/docs/Web/API/notification
 
 ```js
 function structuralClone(obj) {
@@ -129,6 +129,6 @@ let clone = structuralClone(orgin);
 
 ### Ref
 
-<https://justjavac.com/javascript/2018/02/02/deep-copy.html>
+https://justjavac.com/javascript/2018/02/02/deep-copy.html
 
-<https://dassur.ma/things/deep-copy/>
+https://dassur.ma/things/deep-copy/

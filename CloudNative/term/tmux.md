@@ -91,4 +91,4 @@ cp .tmux/.tmux.conf.local .
 - https://github.com/benmills/vimux
 - https://github.com/antono/shelr
 - https://github.com/altercation/solarized
-- <https://github.com/jimeh/tmuxifier
+- https://github.com/jimeh/tmuxifier
