@@ -106,9 +106,9 @@ Device     Start      End  Sectors Size Type
 /dev/sda2  18432 16777182 16758751   8G Linux filesystem
 ```
 
-<https://www.jianshu.com/p/ba7090b1ef38>
+https://www.jianshu.com/p/ba7090b1ef38
 
-<https://www.cnblogs.com/youbiyoufang/p/7607174.html>
+https://www.cnblogs.com/youbiyoufang/p/7607174.html
 
 ---
 

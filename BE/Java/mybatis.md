@@ -1,6 +1,6 @@
-<https://www.cnblogs.com/caizhaokai/p/10982727.html>
+https://www.cnblogs.com/caizhaokai/p/10982727.html
 
-<https://mybatis.org/mybatis-3/zh/java-api.html>
+https://mybatis.org/mybatis-3/zh/java-api.html
 
 #### 简单 sql
 

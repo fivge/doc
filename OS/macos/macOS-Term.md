@@ -91,7 +91,7 @@ wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
 
 ###### 安装 macvim
 
-<https://github.com/macvim-dev/macvim/releases>
+https://github.com/macvim-dev/macvim/releases
 
 ```
 1）安装 MacVim.app

@@ -1,3 +1,3 @@
 ### bbr
 
-<https://github.com/google/bbr>
+https://github.com/google/bbr

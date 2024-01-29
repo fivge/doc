@@ -2,13 +2,13 @@ https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/i
 
 ### assemblyscript
 
-<https://github.com/AssemblyScript/assemblyscript>
+https://github.com/AssemblyScript/assemblyscript
 
-<https://docs.assemblyscript.org/>
+https://docs.assemblyscript.org/
 
 #### demo
 
-<https://github.com/AssemblyScript/assemblyscript/tree/master/examples>
+https://github.com/AssemblyScript/assemblyscript/tree/master/examples
 
 ### C/C++
 
@@ -22,7 +22,7 @@ https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/i
 
 ---
 
-example <https://wasmbyexample.dev/>
+example https://wasmbyexample.dev/
 
 http://webassembly.org.cn/
 

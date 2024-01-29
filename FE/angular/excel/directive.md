@@ -182,11 +182,11 @@ export class DocumentModule {}
 >
 > 结构型指令的职责是 HTML 布局。 它们塑造或重塑 DOM 的结构，比如添加、移除或维护这些元素
 
-🎯<https://angular.cn/guide/structural-directives>
+🎯https://angular.cn/guide/structural-directives
 
 > 在一个宿主元素上可以应用多个属性型指令，但只能应用一个结构型指令。
 
-参考 `ngIf` 实现<https://github.com/angular/angular/blob/master/packages/common/src/directives/ng_if.ts>
+参考 `ngIf` 实现https://github.com/angular/angular/blob/master/packages/common/src/directives/ng_if.ts
 
 ---
 

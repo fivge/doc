@@ -163,7 +163,7 @@ ssh foo
 ssh -N -L2001:localhost:80 某主机
 ```
 
-现在你可以直接在浏览器中输入<http://localhost:2001>访问这个网站。
+现在你可以直接在浏览器中输入http://localhost:2001访问这个网站。
 
 - 将你的麦克风输出到远程计算机的扬声器
 
@@ -187,7 +187,7 @@ ssh 用户名@远程主机 cat /path/to/remotefile | diff /path/to/localfile –
 sshfs 用户名@远程主机:/path/to/folder /path/to/mount/point
 ```
 
-从<http://fuse.sourceforge.net/sshfs.html>下载 sshfs，它允许你跨网络安全挂载一个目录。
+从http://fuse.sourceforge.net/sshfs.html下载 sshfs，它允许你跨网络安全挂载一个目录。
 
 - 通过中间主机建立 SSH 连接
 
@@ -314,7 +314,7 @@ yes | pv | ssh 主机 "cat > /dev/null"
 ssh -t 用户名@主机 /usr/bin/screen –xRR
 ```
 
-人们总是喜欢在一个文本终端中打开许多 shell，如果会话突然中断，或你按下了“Ctrl-a d”，远程主机上的 shell 不会受到丝毫影响，你可以重新连接，其它有用的 screen 命令有“Ctrl-a c”（打开新的 shell）和“Ctrl-a a”（在 shell 之间来回切换），请访问<http://aperiodic.net/screen/quick_reference>阅读更多关于 screen 命令的快速参考。
+人们总是喜欢在一个文本终端中打开许多 shell，如果会话突然中断，或你按下了“Ctrl-a d”，远程主机上的 shell 不会受到丝毫影响，你可以重新连接，其它有用的 screen 命令有“Ctrl-a c”（打开新的 shell）和“Ctrl-a a”（在 shell 之间来回切换），请访问http://aperiodic.net/screen/quick_reference阅读更多关于 screen 命令的快速参考。
 
 - 继续 scp 大文件
 
@@ -350,7 +350,7 @@ ssh -4 -C -c blowfish-cbc
 tar -cj /backup | cstream -t 777k | ssh host ‘tar -xj -C /backup’
 ```
 
-使用 bzip 压缩文件夹，然后以 777k bit/s 速率向远程主机传输。Cstream 还有更多的功能，请访问<http://www.cons.org/cracauer/cstream.html#usage>了解详情，例如：
+使用 bzip 压缩文件夹，然后以 777k bit/s 速率向远程主机传输。Cstream 还有更多的功能，请访问http://www.cons.org/cracauer/cstream.html#usage了解详情，例如：
 
 ```shell
 echo w00t, i’m 733+ | cstream -b1 -t2
@@ -368,6 +368,6 @@ ssh 用户名@主机 cat /path/to/some/file | xclip
 
 参考文章:
 
-1. <https://linux.cn/article-7683-1.html>
-2. <https://linux.cn/article-5776-1.html>
-3. <http://os.51cto.com/art/201304/390042.htm>
+1. https://linux.cn/article-7683-1.html
+2. https://linux.cn/article-5776-1.html
+3. http://os.51cto.com/art/201304/390042.htm

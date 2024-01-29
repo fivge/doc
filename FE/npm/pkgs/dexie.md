@@ -3,7 +3,7 @@ id: dexie
 title: dexie
 ---
 
-<https://www.npmjs.com/package/dexie>
+https://www.npmjs.com/package/dexie
 
 [学习文档](https://dexie.org/)
 

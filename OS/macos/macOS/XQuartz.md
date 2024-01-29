@@ -23,7 +23,7 @@ xterm: DISPLAY is not set
 
 #####安装
 
-<https://www.xquartz.org/releases/index.html>
+https://www.xquartz.org/releases/index.html
 
 ##### 连接
 

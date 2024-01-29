@@ -112,7 +112,7 @@ Dec 21 23:51:48 morning.work ssserver[19334]: 2015-12-21 23:51:48 INFO     start
 
 ### 更多相关文章
 
-- <http://morning.work/page/2015-12/install-shadowsocks-on-centos-7.html>
+- http://morning.work/page/2015-12/install-shadowsocks-on-centos-7.html
 
 - [CentOS 7 配置 IPSec-IKEv2 VPN, 适用于 ios, mac os, windows, linux.](https://blog.itnmg.net/centos7-ipsec-vpn/) (97)
 - [CentOS 7 配置 SNMP 服务](https://blog.itnmg.net/centos-7-snmp/) (15)

@@ -2,9 +2,9 @@
 
 #### libraries
 
-<https://angular.cn/guide/creating-libraries>
+https://angular.cn/guide/creating-libraries
 
-<https://angular.cn/guide/file-structure#library-project-files>
+https://angular.cn/guide/file-structure#library-project-files
 
 #### app-shell
 
@@ -18,7 +18,7 @@
 
 #### angular-react
 
-<https://github.com/microsoft/angular-react>
+https://github.com/microsoft/angular-react
 
 #### 注解 装饰器
 
@@ -38,7 +38,7 @@ Dynamic components are the components in which components location in the applic
 
 [51.58](https://github.com/sudheerj/angular-interview-questions#what-are-angular-elements)
 
-<https://angular.cn/guide/elements>
+https://angular.cn/guide/elements
 
 ![Custom element in browser](https://angular.cn/generated/images/guide/elements/customElement1.png)
 

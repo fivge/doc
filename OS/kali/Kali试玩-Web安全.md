@@ -8,7 +8,7 @@ tags:
 
 > OWASP Mantra
 
-<http://www.getmantra.com/owasp-mantra.html>
+http://www.getmantra.com/owasp-mantra.html
 
 apt install owasp-mantra-ff
 
@@ -43,20 +43,20 @@ apt install owasp-mantra-ff
 
 - OWASP BWA( Broken Web Apps)的虚拟机
 
-  <https://sourceforge.net/projects/owaspbwa/files/1.2/>
+  https://sourceforge.net/projects/owaspbwa/files/1.2/
 
 - VulnHub
 
-  <https://www.vulnhub.com/>
+  https://www.vulnhub.com/
 
 - bWapp Bee-box
 
-  <https://www.vulnhub.com/entry/bwapp-beebox-v16,53/>
+  https://www.vulnhub.com/entry/bwapp-beebox-v16,53/
 
-  <http://www.freebuf.com/sectool/76885.html>
+  http://www.freebuf.com/sectool/76885.html
 
 > 客户端虚拟机
 
-<http://dev.modern.ie/tools/vms/#downloads>
+http://dev.modern.ie/tools/vms/#downloads
 
 1.8 P22

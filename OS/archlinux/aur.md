@@ -2,4 +2,4 @@
 
 > ##### yay
 
-<https://github.com/Jguer/yay>
+https://github.com/Jguer/yay

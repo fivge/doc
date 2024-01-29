@@ -1,6 +1,6 @@
 # powershell
 
-<https://github.com/PowerShell/PowerShell>
+https://github.com/PowerShell/PowerShell
 
 https://learn.microsoft.com/zh-cn/powershell/scripting/learn/shell/using-light-theme?view=powershell-7.4
 

@@ -1,6 +1,6 @@
 > 辅助功能
 
-<https://www.haorooms.com/post/js_escape_encodeURIComponent>
+https://www.haorooms.com/post/js_escape_encodeURIComponent
 
 传输过程中 需要转义 / 关键字等原因，需要对传输的内容——通常为字符串进行编码
 
@@ -47,7 +47,7 @@ HttpParams
 
 ### URLSearchParams
 
-<https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams>
+https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams
 
 ---
 

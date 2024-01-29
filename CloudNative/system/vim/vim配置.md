@@ -2,13 +2,13 @@
 
 
 
-<http://www.jianshu.com/p/a0b452f8f720>
+http://www.jianshu.com/p/a0b452f8f720
 
-<https://github.com/ma6174/vim>
+https://github.com/ma6174/vim
 
-<https://github.com/tomasr/molokai/tree/master/colors>
+https://github.com/tomasr/molokai/tree/master/colors
 
-<https://github.com/yangyangwithgnu/use_vim_as_ide>
+https://github.com/yangyangwithgnu/use_vim_as_ide
 
 
 

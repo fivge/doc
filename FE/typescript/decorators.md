@@ -235,11 +235,11 @@ yarn add reflect-metadata
 
 #### ref
 
-- <https://www.tslang.cn/docs/handbook/decorators.html>
-- <https://www.typescriptlang.org/docs/handbook/decorators.html>
-- <https://www.mls-tech.info/web/angular/angular-typescript-decorator/>
-- <https://zhuanlan.zhihu.com/p/22277764>
-- <https://www.cnblogs.com/dashnowords/p/10158537.html>
-- <https://www.jianshu.com/p/e280d916495b>
-- <https://www.zhihu.com/question/68257128>
-- <https://juejin.im/post/5b41f76be51d4518f140f9e4>
+- https://www.tslang.cn/docs/handbook/decorators.html
+- https://www.typescriptlang.org/docs/handbook/decorators.html
+- https://www.mls-tech.info/web/angular/angular-typescript-decorator/
+- https://zhuanlan.zhihu.com/p/22277764
+- https://www.cnblogs.com/dashnowords/p/10158537.html
+- https://www.jianshu.com/p/e280d916495b
+- https://www.zhihu.com/question/68257128
+- https://juejin.im/post/5b41f76be51d4518f140f9e4

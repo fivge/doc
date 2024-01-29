@@ -1,4 +1,4 @@
 > YARD
 
-+ [ ] <https://github.com/skwp/dotfiles>
++ [ ] https://github.com/skwp/dotfiles
 

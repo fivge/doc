@@ -72,7 +72,7 @@ $ tmux attach -t test
 
 ### 美化
 
-<https://github.com/gpakosz/.tmux>
+https://github.com/gpakosz/.tmux
 
 ```shell
 cd
@@ -83,12 +83,12 @@ cp .tmux/.tmux.conf.local .
 
 参考文章:
 
-- <https://linux.cn/article-5399-1.html>
-- <https://linux.cn/article-5666-1.html>
-- <https://linux.cn/article-3952-1.html>
-- <https://github.com/tmuxinator/tmuxinator>
-- <http://skwp.github.io/dotfiles/>
-- <https://github.com/benmills/vimux>
-- <https://github.com/antono/shelr>
-- <https://github.com/altercation/solarized>
+- https://linux.cn/article-5399-1.html
+- https://linux.cn/article-5666-1.html
+- https://linux.cn/article-3952-1.html
+- https://github.com/tmuxinator/tmuxinator
+- http://skwp.github.io/dotfiles/
+- https://github.com/benmills/vimux
+- https://github.com/antono/shelr
+- https://github.com/altercation/solarized
 - <https://github.com/jimeh/tmuxifier

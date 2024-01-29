@@ -5,11 +5,11 @@ title: Single-SPA
 
 #### Single-SPA
 
-#### <https://single-spa.surge.sh/>
+#### https://single-spa.surge.sh/
 
 #### Demo
 
-<https://alili.tech/archive/22975f44/>
+https://alili.tech/archive/22975f44/
 
 #### 创建 angular 项目
 

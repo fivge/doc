@@ -63,4 +63,4 @@ fns.addYears(new Date(2019, 0, 31), 1);
 
 ### More
 
-- <https://date-fns.org/v1.30.1/docs>
+- https://date-fns.org/v1.30.1/docs

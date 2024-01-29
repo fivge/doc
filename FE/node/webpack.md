@@ -84,6 +84,6 @@ _webpack 根据正则表达式，来确定应该查找哪些文件，并将其�
 
 ---
 
-<https://webpack.docschina.org/guides/output-management/>
+https://webpack.docschina.org/guides/output-management/
 
-<https://github.com/FormidableLabs/webpack-dashboard>
+https://github.com/FormidableLabs/webpack-dashboard

@@ -32,7 +32,7 @@ end run
 
 ### 参考链接
 
-+ <https://www.zhihu.com/question/21435176/answer/80670940>
++ https://www.zhihu.com/question/21435176/answer/80670940
 
 
-+ <https://superuser.com/questions/139352/mac-os-x-how-to-open-vim-in-terminal-when-double-click-on-a-file>
++ https://superuser.com/questions/139352/mac-os-x-how-to-open-vim-in-terminal-when-double-click-on-a-file

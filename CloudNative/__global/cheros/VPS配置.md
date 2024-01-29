@@ -10,7 +10,7 @@ tags:
 
 https://blog.yizhilee.com/post/deploy-hexo-to-vps/
 
-<https://aotu.io/notes/2016/08/16/nginx-https/>
+https://aotu.io/notes/2016/08/16/nginx-https/
 
 > 安装
 
@@ -34,7 +34,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 
 #### 2. 安装 nvm
 
-<https://github.com/creationix/nvm>
+https://github.com/creationix/nvm
 
 ```shell
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
@@ -55,33 +55,33 @@ export NVM_DIR="$HOME/.nvm"
 
 - 安装 ss
 
-  <http://shadowsocks.github.io/shadowsocks-go/>
+  http://shadowsocks.github.io/shadowsocks-go/
 
-  <https://github.com/shadowsocks/go-shadowsocks2>
+  https://github.com/shadowsocks/go-shadowsocks2
 
   ​
 
 - 控制面板
 
-  <https://github.com/orvice/ss-panel>
+  https://github.com/orvice/ss-panel
 
-  <https://github.com/orvice/ss-panel/wiki/v3-Install>
+  https://github.com/orvice/ss-panel/wiki/v3-Install
 
-  <http://539go.com/index.php/archives/201601/96.html>
+  http://539go.com/index.php/archives/201601/96.html
 
   ​
 
 - Kcptun 加速
 
-  <https://github.com/xtaci/kcptun>
+  https://github.com/xtaci/kcptun
 
-  <http://k162.space/kcptun/>
+  http://k162.space/kcptun/
 
-  <https://blog.kuoruan.com/102.html>
+  https://blog.kuoruan.com/102.html
 
-  <https://github.com/shadowsocks-plus/shadowsocks-plus>?WTF
+  https://github.com/shadowsocks-plus/shadowsocks-plus?WTF
 
-  <https://www.cmsky.com/kcptun/>
+  https://www.cmsky.com/kcptun/
 
   ​
 
@@ -96,7 +96,7 @@ export GOPATH=$HOME/gocode
 go get -u -v github.com/shadowsocks/go-shadowsocks2
 ```
 
-<https://github.com/shadowsocks/go-shadowsocks2>
+https://github.com/shadowsocks/go-shadowsocks2
 
 ```shell
 nn
@@ -106,7 +106,7 @@ nn
 
 https://blog.yizhilee.com/post/deploy-hexo-to-vps/
 
-<https://hexo.io/zh-cn/>
+https://hexo.io/zh-cn/
 
 ```shell
 npm config set user 0

@@ -1,5 +1,5 @@
-<https://github.com/myliang/x-spreadsheet>
+https://github.com/myliang/x-spreadsheet
 
-<https://github.com/paulhodel/jexcel>
+https://github.com/paulhodel/jexcel
 
-<https://github.com/handsontable/handsontable>
+https://github.com/handsontable/handsontable

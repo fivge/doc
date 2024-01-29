@@ -48,4 +48,4 @@ start/build
 - https://medium.com/francesco-pongetti/using-protocol-buffers-in-a-node-js-angular-web-application-fba17df8ab51
 - https://github.com/AnthonyGiretti/angular8-grpc-aspnetcore3-1-demo
 - https://segmentfault.com/a/1190000017055280
-- TODO: <https://grpc.io/>
+- TODO: https://grpc.io/

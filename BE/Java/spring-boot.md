@@ -175,9 +175,9 @@ redis:
 
 ### 0x06 With Kotlin
 
-<https://www.jianshu.com/p/0d67771ae14c>
+https://www.jianshu.com/p/0d67771ae14c
 
-<https://spring.io/guides/tutorials/spring-boot-kotlin/>
+https://spring.io/guides/tutorials/spring-boot-kotlin/
 
 `协程`
 

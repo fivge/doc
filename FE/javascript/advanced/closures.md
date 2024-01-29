@@ -21,4 +21,4 @@ add3(6);
 // 9
 ```
 
-<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures>
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures

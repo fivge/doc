@@ -1,4 +1,4 @@
-<https://paterva.com/web7/community/community.php#tab-3>
+https://paterva.com/web7/community/community.php#tab-3
 
 lu
 

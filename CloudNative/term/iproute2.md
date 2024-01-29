@@ -74,7 +74,7 @@ ip link set interface down
 ip monitor all
 ```
 
-<https://zh.wikipedia.org/wiki/无类别域间路由>
+https://zh.wikipedia.org/wiki/无类别域间路由
 
 自动连接到已知网络
 警告: 不要同时使用该方案和已启用的无线连接配置文件 profile, 比如 netctl enable profile.

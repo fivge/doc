@@ -9,13 +9,13 @@ categories:
 
 > ### 开源 C++库
 >
-> <http://zh.cppreference.com/w/cpp/links/libs>
+> http://zh.cppreference.com/w/cpp/links/libs
 
-<https://github.com/mrtazz/restclient-cpp>
+https://github.com/mrtazz/restclient-cpp
 
-<https://github.com/Microsoft/cpprestsdk>
+https://github.com/Microsoft/cpprestsdk
 
-<https://github.com/jpbarrette/curlpp>
+https://github.com/jpbarrette/curlpp
 
 libcurl
 
@@ -53,8 +53,8 @@ brew install cpprestsdk
 
 ### libcurl
 
-<https://blog.csdn.net/cjf_wei/article/details/79118415>
+https://blog.csdn.net/cjf_wei/article/details/79118415
 
-<https://blog.csdn.net/cjf_wei/article/details/79185310>
+https://blog.csdn.net/cjf_wei/article/details/79185310
 
 > 在新版中把 curl/types.h 合并到了 curl/curl.h 中

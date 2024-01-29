@@ -1,8 +1,8 @@
 ### JWT Auth
 
-<https://insights.thoughtworks.cn/api-2/>
+https://insights.thoughtworks.cn/api-2/
 
-<https://jwt.io/#debugger>
+https://jwt.io/#debugger
 
 `access_token`
 

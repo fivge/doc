@@ -31,6 +31,6 @@ aria2c --max-download-limit=500k http://foo.tar
 
 ##### 参考链接
 
-<https://aria2.github.io>
+https://aria2.github.io
 
-<https://linux.cn/article-7982-1.html>
+https://linux.cn/article-7982-1.html

@@ -25,4 +25,4 @@ this.id$ = this.route.paramMap.pipe(map(params => params.get('id')));
 
 https://random-word-api.herokuapp.com/word?number=10
 
-<https://angular.cn/guide/practical-observable-usage>
+https://angular.cn/guide/practical-observable-usage

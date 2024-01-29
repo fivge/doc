@@ -53,7 +53,7 @@ docker info
 
 ### 0x02 更改 docker hub 源
 
-<https://mirrors.ustc.edu.cn/help/dockerhub.html>
+https://mirrors.ustc.edu.cn/help/dockerhub.html
 
 docker 默认使用 `sudo`
 
@@ -120,11 +120,11 @@ docker commit 90cb8a003744 luanxt/ubuntu-bak
 
 ### 0x05 Dockerfile
 
-<https://docs.docker.com/engine/reference/builder/>
+https://docs.docker.com/engine/reference/builder/
 
-<https://www.jianshu.com/p/10ed530766af>
+https://www.jianshu.com/p/10ed530766af
 
-<https://www.cnblogs.com/boshen-hzb/p/6400272.html>
+https://www.cnblogs.com/boshen-hzb/p/6400272.html
 
 ### 0x06 config
 
@@ -148,4 +148,4 @@ mount -o bind /var/lib/docker /opt/docker
 
 ### ref
 
-- <https://linux.cn/article-10940-1.html>
+- https://linux.cn/article-10940-1.html

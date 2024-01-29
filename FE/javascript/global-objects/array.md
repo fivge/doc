@@ -22,7 +22,7 @@ for (let i = 0, len = arr.length; i < len; i++) {}
 
 #### 数组方法 prototype
 
-<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array#>
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array#
 
 ##### forEach()
 
@@ -86,7 +86,7 @@ arr.indexOf('5') === -1;
 
 ##### push() pop() shift() unshift() splice() slice()
 
-<https://es6.ruanyifeng.com/#docs/array>
+https://es6.ruanyifeng.com/#docs/array
 
 #### 数组去重
 

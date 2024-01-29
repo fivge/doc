@@ -16,7 +16,7 @@ categories:
 
 ##### aria2
 
-<https://aria2.github.io>
+https://aria2.github.io
 
 ```bash
 aria2c http://
@@ -31,4 +31,4 @@ aria2c http://
 
 ##### 参考链接
 
-<https://linux.cn/article-7982-1.html>
+https://linux.cn/article-7982-1.html

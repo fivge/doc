@@ -8,7 +8,7 @@ https://ng-alain.com/acl/getting-started/zh
 
 参考`*ngIf`实现权限控制
 
-<https://github.com/angular/angular/blob/master/packages/common/src/directives/ng_if.ts>
+https://github.com/angular/angular/blob/master/packages/common/src/directives/ng_if.ts
 
 aclAllow
 

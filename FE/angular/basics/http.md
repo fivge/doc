@@ -2,7 +2,7 @@
 
 ### `xmlHttpRequset`(`xhr`)
 
-<https://angular.cn/guide/http>
+https://angular.cn/guide/http
 
 要想使用 `HttpClient`，就要先导入 Angular 的 `HttpClientModule`。大多数应用都会在根模块 `AppModule` 中导入它。
 
@@ -25,7 +25,7 @@ export class AppModule {}
 
 ### `fetch()`
 
-<https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch>
+https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch
 
 `.service.ts`
 
@@ -86,7 +86,7 @@ import { from } from "rxjs";
 
 > Q&A
 
-<https://stackoverflow.com/questions/36292537/what-is-an-opaque-response-and-what-purpose-does-it-serve>
+https://stackoverflow.com/questions/36292537/what-is-an-opaque-response-and-what-purpose-does-it-serve
 
 ```json
 'mode': 'no-cors'

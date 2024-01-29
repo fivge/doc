@@ -45,4 +45,4 @@ OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip'
 
 > 参考链接
 
-<https://pip.pypa.io/en/stable/installing/>
+https://pip.pypa.io/en/stable/installing/

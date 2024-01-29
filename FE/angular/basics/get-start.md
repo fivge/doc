@@ -142,13 +142,13 @@ ng add ng-zorro-antd
 
 ### material
 
-<https://material.angular.cn/>
+https://material.angular.cn/
 
 ### BootStrap
 
-<https://github.com/valor-software/ngx-bootstrap>
+https://github.com/valor-software/ngx-bootstrap
 
-<https://valor-software.com/ngx-bootstrap/#/documentation#getting-started>
+https://valor-software.com/ngx-bootstrap/#/documentation#getting-started
 
 #### 安装
 

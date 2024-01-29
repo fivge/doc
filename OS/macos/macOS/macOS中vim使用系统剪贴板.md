@@ -21,4 +21,4 @@ brew install vim
 
 ### 参考链接
 
-<https://coderwall.com/p/fv7r0q/fix-vim-after-upgrading-to-yosemite>
+https://coderwall.com/p/fv7r0q/fix-vim-after-upgrading-to-yosemite

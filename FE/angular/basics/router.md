@@ -449,7 +449,7 @@ this.route.snapshot.data['code']this.route.snapshot.data['code'];
 
 ---
 
-🎯<https://angular.cn/guide/router#milestone-4-crisis-center-feature>
+🎯https://angular.cn/guide/router#milestone-4-crisis-center-feature
 
 ### 子路由
 

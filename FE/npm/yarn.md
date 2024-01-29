@@ -1,6 +1,6 @@
 > yarn 离线镜像
 
-<https://yarnpkg.com/blog/2016/11/24/offline-mirror/>
+https://yarnpkg.com/blog/2016/11/24/offline-mirror/
 
 ##### `~`用户根目录下配置
 
@@ -85,6 +85,6 @@ Done in 51.58s.
 
 ##### 要求
 
-<https://yarnpkg.com/blog/2016/11/24/lockfiles-for-all/>
+https://yarnpkg.com/blog/2016/11/24/lockfiles-for-all/
 
 **所有 `yarn.lock` 文件应该被提交到版本控制系统（例如 git 或者 mercurial）**。 这允许 Yarn 跨所有机器安装相同的依赖树，无论它是你同事的笔记本还是 CI 服务器。

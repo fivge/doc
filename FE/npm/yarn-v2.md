@@ -50,6 +50,6 @@ yarn set version from sources
 
 ---
 
-- <https://yarnpkg.com/getting-started/install>
+- https://yarnpkg.com/getting-started/install
 
 - [还在为 monorepo 掉头发吗？Yarn 2.0 了解一下](https://juejin.im/post/5e49e3026fb9a07cd614ca91)

@@ -1,6 +1,6 @@
 ### Docker
 
-<https://yeasy.gitbooks.io/docker_practice/content/introduction/what.html>
+https://yeasy.gitbooks.io/docker_practice/content/introduction/what.html
 
 ```shell
 docker search ubuntu   ### 查找镜像
@@ -29,7 +29,7 @@ mkdir -p ~/mysql/data
 docker run -p 3306:3306 --name mysql -v ~/mysql/data/:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -d hub.c.163.com/library/mysql:latest
 ```
 
-<https://www.jianshu.com/p/d9b6bbc7fd77>
+https://www.jianshu.com/p/d9b6bbc7fd77
 
 > ###### 容器内访问
 
@@ -45,7 +45,7 @@ docker exec -it mysql bash
 brew install mycli
 ```
 
-<https://github.com/dbcli/mycli>
+https://github.com/dbcli/mycli
 
 > ###### 连接数据库
 
@@ -59,17 +59,17 @@ mycli -h localhost -p 3306 -u root -p 1234
 
 ### Connector to asp.net
 
-<https://dev.mysql.com/downloads/connector/net/>
+https://dev.mysql.com/downloads/connector/net/
 
-<https://dev.mysql.com/doc/connector-net/en/connector-net-installation-unix.html>
+https://dev.mysql.com/doc/connector-net/en/connector-net-installation-unix.html
 
 ```shell
 gacutil /i MySql.Data.dll
 ```
 
-<http://lazynight.me/2612.html>
+http://lazynight.me/2612.html
 
-<https://stackoverflow.com/questions/43263509/asp-net-core-how-to-create-a-connectionstring-on-macbook-pro/43267227>
+https://stackoverflow.com/questions/43263509/asp-net-core-how-to-create-a-connectionstring-on-macbook-pro/43267227
 
 ### lamp
 
@@ -137,7 +137,7 @@ mysql> select host,user,password from mysql.user;
 [root@localhost ~]# mysql -u root -h 172.17.0.2 -p123456
 ```
 
-<http://www.cnblogs.com/kevingrace/p/6425424.html>
+http://www.cnblogs.com/kevingrace/p/6425424.html
 
 ### mysql
 

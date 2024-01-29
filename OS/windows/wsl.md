@@ -89,7 +89,7 @@ git status shows all files as modified
 
 **A:**
 
-<https://github.com/Microsoft/WSL/issues/184>
+https://github.com/Microsoft/WSL/issues/184
 
 ```bash
 ### 权限问题

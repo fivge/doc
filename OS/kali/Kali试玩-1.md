@@ -21,17 +21,17 @@ tags:
 
 > Windows 靶机
 
-<https://technet.microsoft.com/en-US/ms376608>
+https://technet.microsoft.com/en-US/ms376608
 
 > Linux 靶机
 
-<http://www.distrowatch.com>
+http://www.distrowatch.com
 
 > WordPress
 
-- <http://www.turnkeylinux.org>
+- http://www.turnkeylinux.org
 
-  <https://www.turnkeylinux.org/wordpress>
+  https://www.turnkeylinux.org/wordpress
 
 - Wordpress 测试
 

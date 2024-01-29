@@ -15,7 +15,7 @@ categories:
 
 > 插件管理工具
 >
-> <https://github.com/VundleVim/Vundle.vim>
+> https://github.com/VundleVim/Vundle.vim
 
 ```basic
 set nocompatible              " 去除VI一致性,必须
@@ -74,31 +74,31 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 
 > 自动补全插件(待配置,已安装)
 >
-> <https://github.com/Valloric/YouCompleteMe>
+> https://github.com/Valloric/YouCompleteMe
 
 ##### 0x03 语法高亮
 
-<https://github.com/vim-syntastic/syntastic>
+https://github.com/vim-syntastic/syntastic
 
 ##### 0x04 状态栏(不喜)
 
-<https://github.com/vim-airline/vim-airline>
+https://github.com/vim-airline/vim-airline
 
 ##### 0x05 主题
 
-<https://github.com/tomasr/molokai>
+https://github.com/tomasr/molokai
 
-<https://github.com/altercation/vim-colors-solarized>
+https://github.com/altercation/vim-colors-solarized
 
-<https://github.com/nathanaelkane/vim-indent-guides>
+https://github.com/nathanaelkane/vim-indent-guides
 
-<https://github.com/flazz/vim-colorschemes>
+https://github.com/flazz/vim-colorschemes
 
 ##### 0x06 alpertuna/vim-header
 
 > 自动插入头文件(不好用)
 
-<https://github.com/alpertuna/vim-header>
+https://github.com/alpertuna/vim-header
 
 _F4 自动添加作者信息_
 
@@ -218,7 +218,7 @@ set fillchars=stlnc:/
 
 ##### 0x09 盘古之白
 
-<https://github.com/hotoo/pangu.vim>
+https://github.com/hotoo/pangu.vim
 
 > 如果想在其他格式的文件中使用这个功能，可以执行  `:Pangu`  命令
 
@@ -226,4 +226,4 @@ set fillchars=stlnc:/
 
 > 插件平台
 >
-> <https://vimawesome.com>
+> https://vimawesome.com

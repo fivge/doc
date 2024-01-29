@@ -1,6 +1,6 @@
-<https://www.rollupjs.com/guide/introduction/#%E5%85%BC%E5%AE%B9%E6%80%A7compatibility>
+https://www.rollupjs.com/guide/introduction/#%E5%85%BC%E5%AE%B9%E6%80%A7compatibility
 
-<https://rollupjs.org/guide/zh/>
+https://rollupjs.org/guide/zh/
 
 ### rollup
 
@@ -29,7 +29,7 @@ node
 
 #### SystemJs
 
-<https://github.com/rollup/rollup-starter-code-splitting>
+https://github.com/rollup/rollup-starter-code-splitting
 
 ### plugins
 
@@ -55,14 +55,14 @@ node
 
 > 🍣 A Rollup plugin for seamless integration between Rollup and Typescript.
 
-<https://github.com/rollup/plugins/tree/master/packages/typescript>
+https://github.com/rollup/plugins/tree/master/packages/typescript
 
 ---
 
-<https://rollupjs.org/guide/en/>
+https://rollupjs.org/guide/en/
 
-<https://rollupjs.org/guide/zh/#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AAbundlecreating-your-first-bundle>
+https://rollupjs.org/guide/zh/#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AAbundlecreating-your-first-bundle
 
-<https://rollupjs.org/guide/en/#plugins>
+https://rollupjs.org/guide/en/#plugins
 
-<https://github.com/rollup/awesome>
+https://github.com/rollup/awesome

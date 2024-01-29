@@ -28,7 +28,7 @@ https://github.com/openstack
 >
 > ### 0x02 设置 pip
 
-<https://mirrors.tuna.tsinghua.edu.cn/help/pypi/>
+https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
 
 ```
 修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url至tuna，例如

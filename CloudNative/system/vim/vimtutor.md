@@ -984,7 +984,7 @@ categories:
 
   译制者附言：
   ===========
-      简体中文教程翻译版之译制者为梁昌泰 <beos@turbolinux.com.cn>，还有
+      简体中文教程翻译版之译制者为梁昌泰 beos@turbolinux.com.cn，还有
       另外一个联系地址：linuxrat@gnuchina.org。
 
       繁体中文教程是从简体中文教程翻译版使用 Debian GNU/Linux 中文项目小
@@ -993,20 +993,20 @@ categories:
 
   变更记录：
   =========
-      2012年10月01日 赵涛 <alick9188@gmail.com>
+      2012年10月01日 赵涛 alick9188@gmail.com
       将 vimtutor 中译版从 1.5 升级到 1.7。
 
-      2002年08月30日 梁昌泰 <beos@turbolinux.com.cn>
+      2002年08月30日 梁昌泰 beos@turbolinux.com.cn
       感谢 RMS@SMTH 的指正，将多处错误修正。
 
-      2002年04月22日 梁昌泰 <linuxrat@gnuchina.org>
+      2002年04月22日 梁昌泰 linuxrat@gnuchina.org
       感谢 xuandong@sh163.net 的指正，将两处错别字修正。
 
-      2002年03月18日 梁昌泰 <linuxrat@gnuchina.org>
+      2002年03月18日 梁昌泰 linuxrat@gnuchina.org
       根据Bram Moolenaar先生在2002年03月16日的来信要求，将vimtutor1.4中译
       版升级到vimtutor1.5。
 
-      2001年11月15日 梁昌泰 <linuxrat@gnuchina.org>
+      2001年11月15日 梁昌泰 linuxrat@gnuchina.org
       将vimtutor1.4中译版提交给Bram Moolenaar和Sven Guckes。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

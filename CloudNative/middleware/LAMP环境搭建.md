@@ -9,7 +9,7 @@ tags:
 
 ### LAMP环境搭建
 
-<http://www.cnblogs.com/mingc/p/7864030.html>
+http://www.cnblogs.com/mingc/p/7864030.html
 
 ##### linux
 

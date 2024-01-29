@@ -49,7 +49,7 @@ server NTP_SERVER iburst
 
 >  网络时间协议(NAT)
 
-<http://www.pool.ntp.org/zone/cn>
+http://www.pool.ntp.org/zone/cn
 
 ```
 apt-get install chrony

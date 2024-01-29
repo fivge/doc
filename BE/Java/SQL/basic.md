@@ -25,7 +25,7 @@ SELECT * FROM cinema
 WHERE id % 2 = 1 AND description != 'boring'
 ORDER BY rating DESC;
 
--- <https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode-Database%20%E9%A2%98%E8%A7%A3.md#178-rank-scores>
+-- https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode-Database%20%E9%A2%98%E8%A7%A3.md#178-rank-scores
 SELECT a.Score AS score,
     (SELECT count(DISTINCT b.Score)
         FROM Scores b
@@ -83,7 +83,7 @@ SET
 ```mysql
 -- IN
 
--- <https://leetcode-cn.com/problems/department-highest-salary/>
+-- https://leetcode-cn.com/problems/department-highest-salary/
 SELECT
     d.Name Department,
     e.Name Employee,
@@ -367,7 +367,7 @@ HAVING COUNT(1) >=3;
 
 
 
-<https://leetcode-cn.com/problems/rank-scores/>
+https://leetcode-cn.com/problems/rank-scores/
 
  [https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode-Database%20%E9%A2%98%E8%A7%A3.md#178-rank-scores](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode-Database 题解.md#178-rank-scores) 
 

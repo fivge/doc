@@ -1,4 +1,4 @@
-<chrome://net-internals/#hsts>
+chrome://net-internals/#hsts
 
 ```
 Strict-Transport-Security: max-age=<expire-time>

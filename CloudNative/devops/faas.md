@@ -1,4 +1,4 @@
-<https://mp.weixin.qq.com/s/7WeUUXWIdxWrC70NwBOivg>
+https://mp.weixin.qq.com/s/7WeUUXWIdxWrC70NwBOivg
 
 ```bash
 kubectl create namespace fission

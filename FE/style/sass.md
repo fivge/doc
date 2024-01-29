@@ -33,4 +33,4 @@ sass --style compressed test.scss test.min.css
 
 ##### 参考链接
 
-- <https://segmentfault.com/a/1190000003912703>
+- https://segmentfault.com/a/1190000003912703

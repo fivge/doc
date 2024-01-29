@@ -11,13 +11,13 @@ title: Web Components
 
 #### Web Components
 
-<https://developer.mozilla.org/zh-CN/docs/Web/Web_Components>
+https://developer.mozilla.org/zh-CN/docs/Web/Web_Components
 
-<https://github.com/mdn/web-components-examples>
+https://github.com/mdn/web-components-examples
 
-<https://github.com/material-components/material-components-web>
+https://github.com/material-components/material-components-web
 
-<https://juejin.im/post/5b780a98e51d4538980bf5cf>
+https://juejin.im/post/5b780a98e51d4538980bf5cf
 
 #### @angular/Elements
 

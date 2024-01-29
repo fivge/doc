@@ -15,9 +15,9 @@ title: Angular Update
 
 > 更新到 8.0
 
-<https://update.angular.io/#7.2:8.0>
+https://update.angular.io/#7.2:8.0
 
-<https://ng-alain.com/docs/upgrade-v8/zh>
+https://ng-alain.com/docs/upgrade-v8/zh
 
 Angular now uses TypeScript 3.4
 
@@ -52,7 +52,7 @@ If you use the legacy `HttpModule` and the `Http` service, switch to `HttpClient
    "module": "esnext",
 ```
 
-<https://stackoverflow.com/questions/56375703/angular-8-lazy-loading-modules-error-ts1323-dynamic-import-is-only-supporte>
+https://stackoverflow.com/questions/56375703/angular-8-lazy-loading-modules-error-ts1323-dynamic-import-is-only-supporte
 
 (2)`routes-routing.module.ts`
 
@@ -76,7 +76,7 @@ If you use the legacy `HttpModule` and the `Http` service, switch to `HttpClient
 
 > 差异化加载
 
-<https://angular.cn/guide/deployment#differential-loading>
+https://angular.cn/guide/deployment#differential-loading
 
 新建 browserslist 文件
 
@@ -124,7 +124,7 @@ not IE 9-11 # For IE 9-11 support, remove 'not'.
 
 > ~~Ivy~~
 
-<https://angular.cn/guide/ivy>
+https://angular.cn/guide/ivy
 
 [https://tc9011.com/2018/11/30/ivy-angular%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E/](https://tc9011.com/2018/11/30/ivy-angular下一代渲染引擎/)
 
@@ -138,13 +138,13 @@ not IE 9-11 # For IE 9-11 support, remove 'not'.
 
 ng-zorro-antd 暂不支持 ivy `2019.7.18`
 
-<https://github.com/NG-ZORRO/ng-zorro-antd/issues/3667>
+https://github.com/NG-ZORRO/ng-zorro-antd/issues/3667
 
 ```bash
 ERROR in Cannot combine @Input decorators with query decorators
 ```
 
-<https://stackoverflow.com/questions/56457566/cannot-combine-input-decorators-with-query-decorators-using-ivy>
+https://stackoverflow.com/questions/56457566/cannot-combine-input-decorators-with-query-decorators-using-ivy
 
 ###### before
 
