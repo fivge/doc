@@ -38,17 +38,7 @@ unset all_proxy
 
 ### git
 
-https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git?platform=linux
-
-https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/credstores.md
-
-https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md
-
-https://www.passwordstore.org/
-
-```bash
-git config --global credential.credentialStore gpg
-```
+`GCM` `GPG` `pass`
 
 ### node
 
