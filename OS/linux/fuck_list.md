@@ -1,9 +1,0 @@
-- [ ] fuck zsh
-- [ ] fuck vim
-- [ ] fuck desktop
-- [ ] fuck i3
-- [ ] fuck nvidia
-- [ ] fuck archlinux
-- [ ] fuck pi
-- [ ] fuck grub
-- [ ] fuck term
