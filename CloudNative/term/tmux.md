@@ -35,8 +35,6 @@ exit
 - `?` 查看帮助
 - `d` detach 当前会话,输入`tmux attach`可重新进入
 
-![](http://ww1.sinaimg.cn/large/006tKfTcly1femc4u97z4j31kw0qwe84.jpg)
-
 ###### Windows 操作
 
 - `c` 新建窗口

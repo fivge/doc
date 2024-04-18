@@ -227,3 +227,49 @@ https://github.com/hotoo/pangu.vim
 > 插件平台
 >
 > https://vimawesome.com
+
+---
+
+### vim
+
+> ### vimwiki
+
+https://github.com/vimwiki/vimwiki
+
+> ### YouCompleteMe
+
+https://github.com/LooEv/A-bridge-to-YouCompleteMe
+
+> ### K-Vim
+
+https://github.com/wklken/k-vim
+
+> ### vimrc
+
+https://github.com/amix/vimrc
+
+> precision colorscheme for the vim text editor
+
+https://github.com/altercation/vim-colors-solarized
+
+> vim 插件
+
+---
+
+参考文章:
+
+- https://linux.cn/article-5880-1.html
+- https://linux.cn/article-7901-1.html?utm_source=index&utm_medium=more
+- https://linux.cn/article-7909-1.html
+
+---
+
+```shell
+wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+```
+
+---
+
+macvim
+
+https://github.com/macvim-dev/macvim/releases

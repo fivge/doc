@@ -1,12 +1,4 @@
----
-title: macOS安装pip
-date: 2018-01-06 22:43:43
-tags:
-  - macOSTerm
-  - pip
-categories:
-  - macOS
----
+# pip
 
 ### 安装 pip
 

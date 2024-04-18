@@ -1,13 +1,3 @@
----
-title: Termux
-date: 2017-05-9 17:36:06
-tags:
-  - Termux
-  - Term
-categories:
-  - Term
----
-
 # Termux
 
 ### 使用清华大学镜像源

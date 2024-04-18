@@ -39,8 +39,6 @@ ssh x@192.168.56.101 -X
 
 当远程主机禁用 ipv6 时,又无法连接到 X11
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1frnxoqzgfrj30jw0b4wkx.jpg)
-
 ##### 解决
 
 ```bash

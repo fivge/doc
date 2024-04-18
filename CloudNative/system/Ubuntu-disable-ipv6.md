@@ -28,15 +28,3 @@ sudo sysctl -p
 ```
 
 ##### 在`host`中注释掉 ipv6 地址
-
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fr7rspy5btj30ju04w74v.jpg)
-
-##### 效果
-
-- before
-
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fr7rtbb9s2j30ss0a6god.jpg)
-
-- after
-
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fr7rti2d2ej30wd06tac2.jpg)

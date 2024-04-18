@@ -55,8 +55,6 @@ mycli -h localhost -p 3306 -u root -p 1234
 
 > ###### 效果图
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fn3jw2q8caj31ez0eqwgt.jpg)
-
 ### Connector to asp.net
 
 https://dev.mysql.com/downloads/connector/net/
