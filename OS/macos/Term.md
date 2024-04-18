@@ -68,13 +68,13 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 ###### autojump
 
-+ mac
+- mac
 
 ```shell
 brew install autojump
 ```
 
-+ Linux
+- Linux
 
 ```shell
 git clone git://github.com/joelthelion/autojump.git
@@ -86,22 +86,19 @@ git clone git://github.com/joelthelion/autojump.git
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 ```
 
-
-智能跳转，安装了autojump之后，zsh 会自动记录你访问过的目录，通过` j + `目录名 可以直接进行目录跳转，而且目录名支持模糊匹配和自动补全，例如你访问过`hadoop-1.0.0`目录，输入`j hado` 即可正确跳转。`j –stat `可以看你的历史路径库。
+智能跳转，安装了 autojump 之后，zsh 会自动记录你访问过的目录，通过`j +`目录名 可以直接进行目录跳转，而且目录名支持模糊匹配和自动补全，例如你访问过`hadoop-1.0.0`目录，输入`j hado` 即可正确跳转。`j –stat `可以看你的历史路径库。
 
 ###### 插件
 
-oh-my-zsh 项目提供了完善的插件体系，相关的文件在~/.oh-my-zsh/plugins目录下，默认提供了100多种，大家可以根据自己的实际学习和工作环境采用，想了解每个插件的功能，只要打开相关目录下的 zsh 文件看一下就知道了。插件也是在.zshrc里配置，找到plugins关键字，你就可以加载自己的插件了，系统默认加载 git ，你可以在后面追加内容，如下：
+oh-my-zsh 项目提供了完善的插件体系，相关的文件在~/.oh-my-zsh/plugins 目录下，默认提供了 100 多种，大家可以根据自己的实际学习和工作环境采用，想了解每个插件的功能，只要打开相关目录下的 zsh 文件看一下就知道了。插件也是在.zshrc 里配置，找到 plugins 关键字，你就可以加载自己的插件了，系统默认加载 git ，你可以在后面追加内容，如下：
 
 plugins=(git textmate ruby autojump osx mvn gradle)
 
 下面简单介绍几个：
 
-+ 1、git：当你处于一个 git 受控的目录下时，Shell 会明确显示 「git」和 branch，如上图所示，另外对 git 很多命令进行了简化，例如 gco=’git checkout’、gd=’git diff’、gst=’git status’、g=’git’等等，熟练使用可以大大减少 git 的命令长度，命令内容可以参考~/.oh-my-zsh/plugins/git/git.plugin.zsh
-+ 2、textmate：mr可以创建 ruby 的框架项目，tm finename 可以用 textmate 打开指定文件。
-+ 3、osx：tab 增强，quick-look filename 可以直接预览文件，man-preview grep 可以生成 grep手册 的pdf 版本等。
-
-
+- 1、git：当你处于一个 git 受控的目录下时，Shell 会明确显示 「git」和 branch，如上图所示，另外对 git 很多命令进行了简化，例如 gco=’git checkout’、gd=’git diff’、gst=’git status’、g=’git’等等，熟练使用可以大大减少 git 的命令长度，命令内容可以参考~/.oh-my-zsh/plugins/git/git.plugin.zsh
+- 2、textmate：mr 可以创建 ruby 的框架项目，tm finename 可以用 textmate 打开指定文件。
+- 3、osx：tab 增强，quick-look filename 可以直接预览文件，man-preview grep 可以生成 grep 手册 的 pdf 版本等。
 
 ###### 目录浏览和跳转
 
@@ -125,14 +122,15 @@ wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
 
 ### 5.macvim
 
-###### 安装macvim
+###### 安装 macvim
 
 https://github.com/macvim-dev/macvim/releases
 
-	1）安装 MacVim.app
+    1）安装 MacVim.app
 
-	2）将mvim脚本文件拷贝到"/usr/local/bin"目录下。输入命令"mvim"快速启动MacVim 。
-​     
+    2）将mvim脚本文件拷贝到"/usr/local/bin"目录下。输入命令"mvim"快速启动MacVim 。
+
+​
 
 ### 6.Tmux
 
@@ -144,7 +142,7 @@ brew install tmux
 
 ### 7.Powerline
 
-###### 安装powerline
+###### 安装 powerline
 
 ```shell
 ### 安装python
@@ -165,7 +163,7 @@ cd fonts
 ### 进入终端偏好设置,设置默认字体即可
 ```
 
-###### 配置zsh
+###### 配置 zsh
 
 ```shell
 vim .zshrc
@@ -176,7 +174,7 @@ vim .zshrc
 source ~/.zshrc
 ```
 
-###### 配置vim
+###### 配置 vim
 
 ```shell
 vim .vimrc
@@ -200,4 +198,3 @@ source .vimrc
 ```shell
 diskutil list
 ```
-

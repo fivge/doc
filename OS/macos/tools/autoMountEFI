@@ -1,0 +1,30 @@
+#!/bin/sh
+
+clear
+echo "*****************************************************************************"
+echo "EFI分区挂载工具"
+echo " "
+echo "	by 栾兴通"
+if [ -d "/Volumes/EFI" ]; then
+	echo " "
+	echo ":-( EFI分区已挂载......"  
+	echo " "
+	echo "*****************************************************************************"
+	exit 0
+＃	sudo umount -f /Volumes/EFI
+fi
+echo " "
+echo " 正在进行 挂载 EFI 分区........."  
+sudo rm -rf /Volumes/EFI
+sudo mkdir /Volumes/EFI
+sudo mount_msdos -u 0 -g 0 /dev/disk0s1 /Volumes/EFI
+echo " "
+echo " "
+echo "挂载 EFI 分区已完成！"
+echo " "
+echo "*****************************************************************************"
+exit 0
+
+
+
+
