@@ -1,3 +1,44 @@
+> lynis
+
+测试及搜集信息的审计工具
+
+> Metasploit
+
+```
+    msfconsole
+```
+
+[配置](http://www.freebuf.com/articles/system/8381.html)
+
+> Windows 靶机
+
+https://technet.microsoft.com/en-US/ms376608
+
+> Linux 靶机
+
+http://www.distrowatch.com
+
+> WordPress
+
+- http://www.turnkeylinux.org
+
+  https://www.turnkeylinux.org/wordpress
+
+- Wordpress 测试
+
+  wpscan
+
+> DNS 资源记录
+
+收集 DNS 信息
+
+- `DS` Name Server
+- `SQ` Start of Authority 起始授权记录
+- `CNAME` Canonical Name 　别名记录
+- `MX` Mail Exchanger 　邮件交换记录
+- `A` 主机记录
+- `SRV记录`
+
 > OWASP Mantra
 
 http://www.getmantra.com/owasp-mantra.html
@@ -45,10 +86,72 @@ apt install owasp-mantra-ff
 
   https://www.vulnhub.com/entry/bwapp-beebox-v16,53/
 
+  http://www.freebuf.com/sectool/76885.html
+
 > 客户端虚拟机
 
 http://dev.modern.ie/tools/vms/#downloads
 
->
-
 1.8 P22
+
+> maltego
+
+---
+
+### KALI
+
+```
+nmap -sn luanju.me
+
+nmap luanju.me
+
+nmap -sV -o luanju.me
+
+nmap -sV -O  luanju.me
+
+nmap -sV -O  luanju.me
+
+nmap-p80,443--script=http-waf-detect luanju.me
+
+nmap -p80,443--script=http-waf-detect luanju.me
+
+nmap -p80,443 --script=http-waf-detect luanju.me
+
+msfconsole
+
+beef-xss
+
+metaflac
+
+metasploit
+
+dnsenum --enmu luanju.me
+
+snmpwalk -c public luanju.me -v 2c
+
+dmitry -wnspb luanju.me -o Kali/Results/dmitry-result
+
+netmask -s luanju.me
+```
+
+EmPyre
+
+> # Kali
+
+### 虚拟机
+
+http://www.evil0x.com/posts/838.html
+
+http://www.freebuf.com/sectool/130526.html
+
+http://www.freebuf.com/articles/system/130288.html
+
+http://www.freebuf.com/sectool/118715.html
+
+http://www.91ri.org/16398.html
+
+http://blog.163.com/gou_ya/blog/static/1020805802011020554036/
+
+http://www.91ri.org/4408.html
+
+http://ettercap.github.io/ettercap/get-involved.html
