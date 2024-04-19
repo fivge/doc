@@ -48,6 +48,10 @@ unset all_proxy
 ##### 创建用户
 
 ```bash
+passwd -l root
+```
+
+```bash
 useradd -m x
 passwd x
 ```

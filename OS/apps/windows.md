@@ -10,33 +10,19 @@ http://www.bitcomet.com/cn
 
 7zip
 
-cpuz
-
-~~Clash~~
-
-Motrix
-
-platform-tools
-
-刻录工具 https://github.com/pbatard/rufus/
-
 TreeSizeFree-Portable
 
-https://github.com/localsend/localsend
+> 刻录工具
 
-> 局域网传文件
-
-https://github.com/zhongyang219/TrafficMonitor
+https://github.com/pbatard/rufus/
 
 > 一个桌面悬浮窗软件
 
-https://www.snipaste.com/
-
-> 截图
-
-https://github.com/Tatsu-syo/noMeiryoUI
+https://github.com/zhongyang219/TrafficMonitor
 
 > 更改系统字体
+
+https://github.com/Tatsu-syo/noMeiryoUI
 
 ### 编程
 
@@ -44,17 +30,7 @@ CodeBlocks
 
 https://obsidian.md/
 
-typora
-
 notion
-
-PicGo
-
-Xmind
-
-Cmder
-
-PowerShell
 
 strawberry-perl-5.30.2.1-64bit
 
@@ -83,5 +59,3 @@ https://kodi.tv/
 https://potplayer.tv/?lang=zh_CN
 
 Sandbox Launcher
-
-Tor Browser

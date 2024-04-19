@@ -1,0 +1,3 @@
+- https://github.com/0xAX/linux-insides
+- https://github.com/hust-open-atom-club/linux-insides-zh
+- https://github.com/mengning/mykernel

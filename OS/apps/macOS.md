@@ -1,56 +1,90 @@
-- AppCleaner.app
-- Keka.app
 - 7zX
-- Atom
 - Brackets
-- Clover Configurator
-- GitHub Desktop
-- iStat Menus
-- MaciASL
-- Mathematica
-- Mou
-- Parallels Desktop
 - Transmit
-- Xcode-beta
-- [ ] x
 - [ ] 奇妙清单
 - [ ] 人人影视
 - [ ] 网易云音乐
-- [ ] 微信
-- [ ] Android Studio
-- [x] Alfred 3
 - [ ] [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [ ] Bear
 - [ ] [Brackets](https://github.com/bomsy/brackets-compare)
-- [ ] [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.335/)
 - [ ] Charles
-- [ ] Docker
-- [ ] Evernote
-- [ ] Google Chrome
-- [ ] HandShaker
-- [ ] (IINA)[https://lhc70000.github.io/iina/zh-cn/]
 - [ ] iPic
-- [ ] iStat Menus
-- [ ] Keka
 - [x] Kext Utility
 - [ ] Lantern
 - [x] MaciASL
 - [ ] (Maltego CE)[https://www.paterva.com/web7/downloads.php]
-- [ ] Office_Mac_Standard_2016
 - [x] OnyX
 - [x] PlistEdit Pro
-- [ ] QQ
 - [ ] Raindrop.io
-- [ ] ShadowsocksX-NG
-- [ ] Steam
-- [ ] Sublime Text
 - [ ] Surge
-- [ ] Telegram
 - [ ] Tickeys
-- [ ] Typora
 - [ ] Transmit
-- [ ] TorBrowser
-- [ ] VirtualBox
-- [ ] Wireshark
-- [ ] YY
 - [ ] Zenmap
+
+* Alfred
+
+* Raycast
+
+  https://www.raycast.com/
+
+  Alfred 替代品
+
+* 电池电量管理
+
+  BCLM https://github.com/zackelia/bclm
+
+  AlDente https://apphousekitchen.com/
+
+* 2FA
+
+  https://github.com/yitsushi/totp-cli
+
+* https://justgetflux.com/
+
+  降低屏幕的色温，减弱蓝光
+
+* 输入法
+
+  http://rime.im/ RIME 输入法
+
+  https://inputsource.pro/ 输入法自动切换
+
+* Mos
+
+  https://github.com/Caldis/Mos
+
+  鼠标平滑滚动
+
+* 压缩解压
+
+  https://ezip.awehunt.com/
+
+  Keka
+
+  https://macitbetter.com/
+
+* AppCleaner
+
+* 文件传输
+
+  http://www.smartisan.com/apps/handshaker
+
+  https://www.android.com/filetransfer/
+
+* IINA
+
+  https://iina.io/
+
+  视频播放器
+
+---
+
+https://github.com/qianguyihao/Mac-list
+
+https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md
+
+https://github.com/macdao/ocds-guide-to-setting-up-mac
+
+https://github.com/sb2nov/mac-setup
+
+https://github.com/hzlzh/Best-App
