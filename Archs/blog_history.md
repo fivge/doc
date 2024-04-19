@@ -12,7 +12,7 @@
 
 ### 设置 DNS 解析
 
-<https://www.dnspod.cn/>
+https://www.dnspod.cn/
 
 A 为 VPS 的 ip 地址，NS 设置为 DNSPod 的解析
 
@@ -24,7 +24,7 @@ A 为 VPS 的 ip 地址，NS 设置为 DNSPod 的解析
 
 #### 安装 nvm
 
-<https://github.com/creationix/nvm>
+https://github.com/creationix/nvm
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
@@ -245,13 +245,13 @@ pm2 resatrt ghost
 
 - 结束
 
-外网访问<http://luanju.me>即可看到效果
+外网访问 http://luanju.me 即可看到效果
 
 参考文章：
 
-1. <http://docs.ghost.org/zh/installation/>
-2. <https://segmentfault.com/a/1190000006245224>
-3. <http://www.nolanzong.com/2015/07/06/bo-ke-xian-shang/>
+1.  http://docs.ghost.org/zh/installation/
+2.  https://segmentfault.com/a/1190000006245224
+3.  http://www.nolanzong.com/2015/07/06/bo-ke-xian-shang/
 
 ## Hexo
 
@@ -259,19 +259,7 @@ pm2 resatrt ghost
 
 > #### 安装 node
 
-在本地环境下,需要先安装 node,具体参见[这篇文章](link,待补)
-
-{% note info  %}
-
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-
-nvm ls-remote
-
-nvm install v8.1.2(安装最新版 node 即可)
-
-{% endnote %}
-
-<!-- more -->
+在本地环境下,需要先安装 node
 
 > #### 安装 hexo
 
@@ -296,7 +284,7 @@ hexo migrate ghost ghost.json
 
 ### 0x03 开始使用
 
-主要参考[Hexo 官方文档]()
+主要参考 Hexo 官方文档
 
 > #### new
 
@@ -480,11 +468,9 @@ _同本地环境搭建_,需安装 node,hexo.
 
 > nginx
 
-….
-
 #### 开始同步
 
-<https://blog.yizhilee.com/post/deploy-hexo-to-vps/>
+https://blog.yizhilee.com/post/deploy-hexo-to-vps/
 
 #### 自启动
 
