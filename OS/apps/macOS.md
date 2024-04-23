@@ -1,83 +1,66 @@
-- 7zX
-- Brackets
-- Transmit
-- [ ] 奇妙清单
-- [ ] 人人影视
-- [ ] 网易云音乐
-- [ ] [AppCleaner](https://freemacsoft.net/appcleaner/)
-- [ ] Bear
-- [ ] [Brackets](https://github.com/bomsy/brackets-compare)
-- [ ] Charles
-- [ ] iPic
-- [x] Kext Utility
-- [ ] Lantern
-- [x] MaciASL
-- [ ] (Maltego CE)[https://www.paterva.com/web7/downloads.php]
-- [x] OnyX
-- [x] PlistEdit Pro
-- [ ] Raindrop.io
-- [ ] Surge
-- [ ] Tickeys
-- [ ] Transmit
-- [ ] Zenmap
+##### AppCleaner
 
-* Alfred
+https://freemacsoft.net/appcleaner/
 
-* Raycast
+##### 电池电量管理
 
-  https://www.raycast.com/
+BCLM https://github.com/zackelia/bclm
 
-  Alfred 替代品
+AlDente https://apphousekitchen.com/
 
-* 电池电量管理
+##### Alfred
 
-  BCLM https://github.com/zackelia/bclm
+Alfred
 
-  AlDente https://apphousekitchen.com/
+Raycast https://www.raycast.com/
 
-* 2FA
+> Alfred 替代品
 
-  https://github.com/yitsushi/totp-cli
+##### 压缩解压
 
-* https://justgetflux.com/
+Keka https://www.keka.io/zh-cn/
 
-  降低屏幕的色温，减弱蓝光
+https://ezip.awehunt.com/
 
-* 输入法
+https://macitbetter.com/
 
-  http://rime.im/ RIME 输入法
+##### Mos
 
-  https://inputsource.pro/ 输入法自动切换
+> 鼠标平滑滚动
 
-* Mos
+https://github.com/Caldis/Mos
 
-  https://github.com/Caldis/Mos
+##### 输入法
 
-  鼠标平滑滚动
+http://rime.im/ RIME 输入法
 
-* 压缩解压
+https://inputsource.pro/ 输入法自动切换
 
-  https://ezip.awehunt.com/
+##### 2FA
 
-  Keka
+https://github.com/yitsushi/totp-cli
 
-  https://macitbetter.com/
+##### f.lux
 
-* AppCleaner
+> 降低屏幕的色温，减弱蓝光
 
-* 文件传输
+https://justgetflux.com/
 
-  http://www.smartisan.com/apps/handshaker
+##### 文件传输
 
-  https://www.android.com/filetransfer/
+http://www.smartisan.com/apps/handshaker
 
-* IINA
+https://www.android.com/filetransfer/
 
-  https://iina.io/
+##### IINA
 
-  视频播放器
+> 视频播放器
+
+https://github.com/iina/iina
 
 ---
+
+##### list
 
 https://github.com/qianguyihao/Mac-list
 

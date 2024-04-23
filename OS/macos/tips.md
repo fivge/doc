@@ -8,6 +8,14 @@ categories:
   - macOS
 ---
 
+### 0x01 xxx 已损坏
+
+> “foo.app”已损坏，无法打开。 你应该将它移到废纸篓。
+
+```bash
+sudo xattr -r -d com.apple.quarantine /Applications/foo.app
+```
+
 ### 1. 挂载 NTFS 分区
 
 ```bash

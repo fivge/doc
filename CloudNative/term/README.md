@@ -1,15 +1,67 @@
+---
+title: term
+---
+
 # Term
 
 ## init
 
 - git
 - zsh oh-my-zsh
-  https://github.com/robbyrussell/oh-my-zsh
 - vim (TODO)
 - proxy
 - ssh
 
 ## optional
+
+### shell
+
+#### zsh
+
+zsh
+
+oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
+
+#### starship
+
+https://github.com/starship/starship
+
+#### PowerShell
+
+### 包管理器
+
+#### brew
+
+https://brew.sh/
+
+#### nix
+
+https://github.com/NixOS/nix
+
+### docker
+
+colima https://github.com/abiosoft/colima
+
+```bash
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+To start colima now and restart at login:
+  brew services start colima
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/colima/bin/colima start -f
+```
+
+### NodeJS
+
+`fnm` https://github.com/Schniz/fnm
+
+`yarn`
+
+```bash
+corepack enable
+yarn -v
+```
 
 ### conky
 

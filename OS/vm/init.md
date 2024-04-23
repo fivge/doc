@@ -127,6 +127,8 @@ https://mirrors.tuna.tsinghua.edu.cn/help/opensuse/
 
 ### node
 
+fnm
+
 ```bash
 # nodejs
 sudo zypper install nodejs21

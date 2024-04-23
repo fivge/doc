@@ -1,5 +1,7 @@
 #### tools
 
+##### localsend
+
 > 局域网传文件
 
 - https://github.com/localsend/localsend
@@ -13,22 +15,6 @@
 - https://itunes.apple.com/cn/app/annotate-capture-and-share/id918207447?mt=12
 
 #### dev
-
-- git
-- term
-- docker https://github.com/abiosoft/colima
-
-> 包管理器
-
-###### linux & macOS
-
-https://github.com/NixOS/nix
-
-###### Windows
-
-> NodeJS 版本管理
-
-fnm
 
 > 虚拟机
 
@@ -55,10 +41,6 @@ PicGo https://molunerfinn.com/PicGo/
 - Edge
 - Arc(macOS only)
 - Tor Browser
-
-> 图床
-
-- PicGo
 
 > 文件下载
 
