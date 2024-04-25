@@ -8,7 +8,7 @@ BCLM https://github.com/zackelia/bclm
 
 AlDente https://apphousekitchen.com/
 
-##### Alfred
+##### 启动工具
 
 Alfred
 
@@ -23,6 +23,10 @@ Keka https://www.keka.io/zh-cn/
 https://ezip.awehunt.com/
 
 https://macitbetter.com/
+
+##### 日历
+
+Itsycal https://github.com/sfsam/itsycal
 
 ##### Mos
 
