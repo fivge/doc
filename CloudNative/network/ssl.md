@@ -13,7 +13,7 @@ https://github.com/acmesh-official/acme.sh
 #### 1. 安装
 
 ```bash
-curl https://get.acme.sh | sh
+curl https://get.acme.sh | sh -s email=
 ```
 
 #### 2. 设置 ca
@@ -50,8 +50,9 @@ acme.sh --issue -d example.com -d www.example.com -d xxx.example.com -w /home/ww
 https://github.com/acmesh-official/acme.sh/wiki/dnsapi
 
 ```
-acme.sh --issue --dns dns_cf -d 0x64.sh
-acme.sh --issue --dns dns_dp -d 0x64.ml
+acme.sh --issue --dns dns_cf -d 0x64.in
+
+acme.sh --issue --dns dns_dp -d 0x64.in
 ```
 
 **⚠freenom 注册的域名不可以用 cloudflare dns**
