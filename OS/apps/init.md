@@ -60,6 +60,10 @@ PicGo https://molunerfinn.com/PicGo/
 
 `Cascadia Code` https://github.com/microsoft/cascadia-code
 
+##### 屏幕锁定程序
+
+XScreenSaver https://www.jwz.org/xscreensaver/
+
 #### 终端
 
 > windows
