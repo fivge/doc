@@ -28,6 +28,12 @@ acme.sh --set-default-ca --server zerossl
 
   https://cloud.google.com/certificate-manager/docs/public-ca-tutorial
 
+  ```bash
+  acme.sh --register-account -m foo@bar.com --server google \
+      --eab-kid xx \
+      --eab-hmac-key xxx
+  ```
+
 - zerossl
 
   ```bash
@@ -49,10 +55,22 @@ acme.sh --issue -d example.com -d www.example.com -d xxx.example.com -w /home/ww
 
 https://github.com/acmesh-official/acme.sh/wiki/dnsapi
 
+`dnspod`
+
+```bash
+acme.sh --issue --dns dns_dp -d 0x64.in
+```
+
+`cloudflare`
+
 ```
 acme.sh --issue --dns dns_cf -d 0x64.in
+```
 
-acme.sh --issue --dns dns_dp -d 0x64.in
+泛域名
+
+```bash
+acme.sh --issue --dns dns_cf -d *.0x64.in
 ```
 
 **⚠freenom 注册的域名不可以用 cloudflare dns**
@@ -65,7 +83,7 @@ https://github.com/acmesh-official/acme.sh/issues/2989
 acme.sh --installcert -d example.com \
 --key-file xxx \
 --fullchain-file xxx \
---reloadcmd "service nginx force-reload"
+--reloadcmd "systemctl restart nginx"
 ```
 
 ### 二、续期

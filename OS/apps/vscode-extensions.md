@@ -5,6 +5,10 @@ title: VSCode扩展
 
 ### settings
 
+#### use `code .` in terminal
+
+https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
+
 ### extensions
 
 ##### background
@@ -86,3 +90,5 @@ https://github.com/shalldie/vscode-background
   "arrowParens": "avoid"
 }
 ```
+
+##### HardHacker Theme
