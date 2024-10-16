@@ -62,6 +62,10 @@ https://www.android.com/filetransfer/
 
 https://github.com/iina/iina
 
+##### 窗口管理
+
+AltTab https://github.com/lwouis/alt-tab-macos
+
 ---
 
 ##### list

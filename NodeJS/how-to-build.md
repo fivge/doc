@@ -12,8 +12,14 @@ commonjs` & `module
 
 xxx【需要补充】
 
+### esm
+
+https://www.npmjs.com/package/lodash-es
+
+goal: in nestjs app, use lodash-es
+
 ### tools
 
-### build test
+### build speed test
 
 https://andrewbranch.github.io/interop-test/#synthesizing-default-exports-for-cjs-modules

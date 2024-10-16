@@ -3,13 +3,15 @@ id: vscode-extensions
 title: VSCode扩展
 ---
 
-### settings
+## 0x01 settings
 
-#### use `code .` in terminal
+##### use `code .` in terminal
 
 https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 
-### extensions
+## 0x02 extensions
+
+### 1. 外观
 
 ##### background
 
@@ -29,7 +31,18 @@ https://github.com/shalldie/vscode-background
   },
 ```
 
-##### Better Comments
+##### HardHacker Theme
+
+##### Dracula Theme Official
+
+##### Material Icon Theme
+
+
+### 2. 代码相关
+
+#### 2.1 代码提示
+
+##### Better Comments Next ~~Better Comments~~ 
 
 ##### TODO Highlight
 
@@ -56,9 +69,11 @@ https://github.com/shalldie/vscode-background
 
 ##### Color Highlight
 
-##### IntelliCode
-
 ##### GitLens
+
+#### 2.2 代码编辑
+
+##### IntelliCode
 
 ##### git-commit-lint-vscode
 
@@ -66,29 +81,38 @@ https://github.com/shalldie/vscode-background
   "gitCommitLintVscode.customFormat": "${type}: ",
 ```
 
-##### Markdown All in One
+##### Prettier
+
+```json
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+```
+
+
+
+`.prettierrc`
+
+```json
+{}
+```
+
+
+#### 2.3 特定语言插件
 
 ##### NGINX Configuration Language Support
+
+##### Markdown All in One
+
+##### vscode-styled-components
+
+##### YAML
+
+##### Svelte for VS Code
+
+### 3. 工具
+
+
 
 ##### REST Client
 
 ##### WSL
 
-##### Prettier
-
-`.prettierrc`
-
-```json
-{
-  "printWidth": 80,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": true,
-  "trailingCommas": "none",
-  "bracketSpacing": true,
-  "arrowParens": "avoid"
-}
-```
-
-##### HardHacker Theme
